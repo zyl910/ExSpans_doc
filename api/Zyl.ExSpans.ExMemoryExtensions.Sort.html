@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Method Sort | ExSpans </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Method Sort | ExSpans ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/zyl910/ExSpans/new/main/apiSpec/new?filename=Zyl_ExSpans_ExMemoryExtensions_Sort_.md&amp;value=---%0Auid%3A%20Zyl.ExSpans.ExMemoryExtensions.Sort*%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="ExSpans">
+            ExSpans
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Zyl.ExSpans.ExMemoryExtensions.Sort*">
+
+
+
+
+
+<h1 id="Zyl_ExSpans_ExMemoryExtensions_Sort_" data-uid="Zyl.ExSpans.ExMemoryExtensions.Sort*" class="text-break">
+Method Sort  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/ExMemoryExtensions.cs/#L3760"><i class="bi bi-code-slash"></i></a>
+</h1>
+
+<div class="facts text-secondary">
+  <dl><dt>Namespace</dt><dd><a class="xref" href="Zyl.html">Zyl</a>.<a class="xref" href="Zyl.ExSpans.html">ExSpans</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ExSpans.dll</dd></dl>
+</div>
+
+<div class="markdown summary"></div>
+<div class="markdown conceptual"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a id="Zyl_ExSpans_ExMemoryExtensions_Sort_" data-uid="Zyl.ExSpans.ExMemoryExtensions.Sort*"></a>
+
+<h3 id="Zyl_ExSpans_ExMemoryExtensions_Sort__1_Zyl_ExSpans_ExSpan___0__" data-uid="Zyl.ExSpans.ExMemoryExtensions.Sort``1(Zyl.ExSpans.ExSpan{``0})">
+  Sort&lt;T&gt;(ExSpan&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/ExMemoryExtensions.cs/#L3760"><i class="bi bi-code-slash"></i></a>
+</h3>
+
+<div class="markdown level1 summary"><p>Sorts the elements in the entire <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> using the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icomparable-1">IComparable&lt;T&gt;</a> implementation
+of each element of the <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a></p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static void Sort&lt;T&gt;(this ExSpan&lt;T&gt; span)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>span</code> <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan</a>&lt;T&gt;</dt>
+  <dd><p>The <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> to sort.</p>
+</dd>
+</dl>
+
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>The type of the elements of the span.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+  <dd><p>One or more elements in <code class="paramref">span</code> do not implement the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icomparable-1">IComparable&lt;T&gt;</a> interface.</p>
+</dd>
+</dl>
+
+
+
+<a id="Zyl_ExSpans_ExMemoryExtensions_Sort_" data-uid="Zyl.ExSpans.ExMemoryExtensions.Sort*"></a>
+
+<h3 id="Zyl_ExSpans_ExMemoryExtensions_Sort__2_Zyl_ExSpans_ExSpan___0____1_" data-uid="Zyl.ExSpans.ExMemoryExtensions.Sort``2(Zyl.ExSpans.ExSpan{``0},``1)">
+  Sort&lt;T, TComparer&gt;(ExSpan&lt;T&gt;, TComparer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/ExMemoryExtensions.cs/#L3780"><i class="bi bi-code-slash"></i></a>
+</h3>
+
+<div class="markdown level1 summary"><p>Sorts the elements in the entire <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> using the <code class="typeparamref">TComparer</code>.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static void Sort&lt;T, TComparer&gt;(this ExSpan&lt;T&gt; span, TComparer comparer) where TComparer : IComparer&lt;T&gt;?</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>span</code> <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan</a>&lt;T&gt;</dt>
+  <dd><p>The <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> to sort.</p>
+</dd>
+  <dt><code>comparer</code> <span class="xref">TComparer</span></dt>
+  <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1">IComparer&lt;T&gt;</a> implementation to use when comparing elements, or null to
+use the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icomparable-1">IComparable&lt;T&gt;</a> interface implementation of each element.</p>
+</dd>
+</dl>
+
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>The type of the elements of the span.</p>
+</dd>
+  <dt><code>TComparer</code></dt>
+  <dd><p>The type of the comparer to use to compare elements.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+  <dd><p><code class="paramref">comparer</code> is null, and one or more elements in <code class="paramref">span</code> do not
+implement the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icomparable-1">IComparable&lt;T&gt;</a> interface.</p>
+</dd>
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+  <dd><p>The implementation of <code class="paramref">comparer</code> caused an error during the sort.</p>
+</dd>
+</dl>
+
+
+
+<a id="Zyl_ExSpans_ExMemoryExtensions_Sort_" data-uid="Zyl.ExSpans.ExMemoryExtensions.Sort*"></a>
+
+<h3 id="Zyl_ExSpans_ExMemoryExtensions_Sort__1_Zyl_ExSpans_ExSpan___0__System_Comparison___0__" data-uid="Zyl.ExSpans.ExMemoryExtensions.Sort``1(Zyl.ExSpans.ExSpan{``0},System.Comparison{``0})">
+  Sort&lt;T&gt;(ExSpan&lt;T&gt;, Comparison&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/ExMemoryExtensions.cs/#L3793"><i class="bi bi-code-slash"></i></a>
+</h3>
+
+<div class="markdown level1 summary"><p>Sorts the elements in the entire <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> using the specified <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.comparison-1">Comparison&lt;T&gt;</a>.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static void Sort&lt;T&gt;(this ExSpan&lt;T&gt; span, Comparison&lt;T&gt; comparison)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>span</code> <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan</a>&lt;T&gt;</dt>
+  <dd><p>The <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> to sort.</p>
+</dd>
+  <dt><code>comparison</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.comparison-1">Comparison</a>&lt;T&gt;</dt>
+  <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.comparison-1">Comparison&lt;T&gt;</a> to use when comparing elements.</p>
+</dd>
+</dl>
+
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>The type of the elements of the span.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+  <dd><p><code class="paramref">comparison</code> is null.</p>
+</dd>
+</dl>
+
+
+
+<a id="Zyl_ExSpans_ExMemoryExtensions_Sort_" data-uid="Zyl.ExSpans.ExMemoryExtensions.Sort*"></a>
+
+<h3 id="Zyl_ExSpans_ExMemoryExtensions_Sort__2_Zyl_ExSpans_ExSpan___0__Zyl_ExSpans_ExSpan___1__" data-uid="Zyl.ExSpans.ExMemoryExtensions.Sort``2(Zyl.ExSpans.ExSpan{``0},Zyl.ExSpans.ExSpan{``1})">
+  Sort&lt;TKey, TValue&gt;(ExSpan&lt;TKey&gt;, ExSpan&lt;TValue&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/ExMemoryExtensions.cs/#L3817"><i class="bi bi-code-slash"></i></a>
+</h3>
+
+<div class="markdown level1 summary"><p>Sorts a pair of ExSpans (one containing the keys and the other containing the corresponding items)
+based on the keys in the first <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> using the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icomparable-1">IComparable&lt;T&gt;</a>
+implementation of each key.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static void Sort&lt;TKey, TValue&gt;(this ExSpan&lt;TKey&gt; keys, ExSpan&lt;TValue&gt; items)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>keys</code> <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan</a>&lt;TKey&gt;</dt>
+  <dd><p>The span that contains the keys to sort.</p>
+</dd>
+  <dt><code>items</code> <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan</a>&lt;TValue&gt;</dt>
+  <dd><p>The span that contains the items that correspond to the keys in <code class="paramref">keys</code>.</p>
+</dd>
+</dl>
+
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>TKey</code></dt>
+  <dd><p>The type of the elements of the key span.</p>
+</dd>
+  <dt><code>TValue</code></dt>
+  <dd><p>The type of the elements of the items span.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+  <dd><p>The length of <code class="paramref">keys</code> isn't equal to the length of <code class="paramref">items</code>.</p>
+</dd>
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+  <dd><p>One or more elements in <code class="paramref">keys</code> do not implement the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icomparable-1">IComparable&lt;T&gt;</a> interface.</p>
+</dd>
+</dl>
+
+
+
+<a id="Zyl_ExSpans_ExMemoryExtensions_Sort_" data-uid="Zyl.ExSpans.ExMemoryExtensions.Sort*"></a>
+
+<h3 id="Zyl_ExSpans_ExMemoryExtensions_Sort__3_Zyl_ExSpans_ExSpan___0__Zyl_ExSpans_ExSpan___1____2_" data-uid="Zyl.ExSpans.ExMemoryExtensions.Sort``3(Zyl.ExSpans.ExSpan{``0},Zyl.ExSpans.ExSpan{``1},``2)">
+  Sort&lt;TKey, TValue, TComparer&gt;(ExSpan&lt;TKey&gt;, ExSpan&lt;TValue&gt;, TComparer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/ExMemoryExtensions.cs/#L3840"><i class="bi bi-code-slash"></i></a>
+</h3>
+
+<div class="markdown level1 summary"><p>Sorts a pair of ExSpans (one containing the keys and the other containing the corresponding items)
+based on the keys in the first <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> using the specified comparer.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static void Sort&lt;TKey, TValue, TComparer&gt;(this ExSpan&lt;TKey&gt; keys, ExSpan&lt;TValue&gt; items, TComparer comparer) where TComparer : IComparer&lt;TKey&gt;?</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>keys</code> <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan</a>&lt;TKey&gt;</dt>
+  <dd><p>The span that contains the keys to sort.</p>
+</dd>
+  <dt><code>items</code> <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan</a>&lt;TValue&gt;</dt>
+  <dd><p>The span that contains the items that correspond to the keys in <code class="paramref">keys</code>.</p>
+</dd>
+  <dt><code>comparer</code> <span class="xref">TComparer</span></dt>
+  <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1">IComparer&lt;T&gt;</a> implementation to use when comparing elements, or null to
+use the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icomparable-1">IComparable&lt;T&gt;</a> interface implementation of each element.</p>
+</dd>
+</dl>
+
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>TKey</code></dt>
+  <dd><p>The type of the elements of the key span.</p>
+</dd>
+  <dt><code>TValue</code></dt>
+  <dd><p>The type of the elements of the items span.</p>
+</dd>
+  <dt><code>TComparer</code></dt>
+  <dd><p>The type of the comparer to use to compare elements.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+  <dd><p>The length of <code class="paramref">keys</code> isn't equal to the length of <code class="paramref">items</code>.</p>
+</dd>
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+  <dd><p><code class="paramref">comparer</code> is null, and one or more elements in <code class="paramref">keys</code> do not
+implement the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icomparable-1">IComparable&lt;T&gt;</a> interface.</p>
+</dd>
+</dl>
+
+
+
+<a id="Zyl_ExSpans_ExMemoryExtensions_Sort_" data-uid="Zyl.ExSpans.ExMemoryExtensions.Sort*"></a>
+
+<h3 id="Zyl_ExSpans_ExMemoryExtensions_Sort__2_Zyl_ExSpans_ExSpan___0__Zyl_ExSpans_ExSpan___1__System_Comparison___0__" data-uid="Zyl.ExSpans.ExMemoryExtensions.Sort``2(Zyl.ExSpans.ExSpan{``0},Zyl.ExSpans.ExSpan{``1},System.Comparison{``0})">
+  Sort&lt;TKey, TValue&gt;(ExSpan&lt;TKey&gt;, ExSpan&lt;TValue&gt;, Comparison&lt;TKey&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/ExMemoryExtensions.cs/#L3862"><i class="bi bi-code-slash"></i></a>
+</h3>
+
+<div class="markdown level1 summary"><p>Sorts a pair of ExSpans (one containing the keys and the other containing the corresponding items)
+based on the keys in the first <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> using the specified comparison.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static void Sort&lt;TKey, TValue&gt;(this ExSpan&lt;TKey&gt; keys, ExSpan&lt;TValue&gt; items, Comparison&lt;TKey&gt; comparison)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>keys</code> <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan</a>&lt;TKey&gt;</dt>
+  <dd><p>The span that contains the keys to sort.</p>
+</dd>
+  <dt><code>items</code> <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan</a>&lt;TValue&gt;</dt>
+  <dd><p>The span that contains the items that correspond to the keys in <code class="paramref">keys</code>.</p>
+</dd>
+  <dt><code>comparison</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.comparison-1">Comparison</a>&lt;TKey&gt;</dt>
+  <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.comparison-1">Comparison&lt;T&gt;</a> to use when comparing elements.</p>
+</dd>
+</dl>
+
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>TKey</code></dt>
+  <dd><p>The type of the elements of the key span.</p>
+</dd>
+  <dt><code>TValue</code></dt>
+  <dd><p>The type of the elements of the items span.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+  <dd><p><code class="paramref">comparison</code> is null.</p>
+</dd>
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+  <dd><p>The length of <code class="paramref">keys</code> isn't equal to the length of <code class="paramref">items</code>.</p>
+</dd>
+</dl>
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/ExMemoryExtensions.cs/#L3760" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

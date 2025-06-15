@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Struct ExSpan&lt;T&gt; | ExSpans </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Struct ExSpan&lt;T&gt; | ExSpans ">
+      
+      <meta name="description" content="Provides a type-safe and memory-safe representation of a contiguous region of arbitrary memory. It can be regarded as the  of  index range (提供任意内存的连续区域的类型安全和内存安全表示形式. 它可以被视为  索引范围的 ).">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/zyl910/ExSpans/new/main/apiSpec/new?filename=Zyl_ExSpans_ExSpan_1.md&amp;value=---%0Auid%3A%20Zyl.ExSpans.ExSpan%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="ExSpans">
+            ExSpans
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Zyl.ExSpans.ExSpan`1">
+
+
+
+  <h1 id="Zyl_ExSpans_ExSpan_1" data-uid="Zyl.ExSpans.ExSpan`1" class="text-break">
+Struct ExSpan&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans.Core/ExSpan.Ex.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Zyl.html">Zyl</a>.<a class="xref" href="Zyl.ExSpans.html">ExSpans</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ExSpans.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Provides a type-safe and memory-safe representation of a contiguous region of arbitrary memory. It can be regarded as the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.span-1">Span&lt;T&gt;</a> of <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a> index range (提供任意内存的连续区域的类型安全和内存安全表示形式. 它可以被视为 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a> 索引范围的 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.span-1">Span&lt;T&gt;</a>).</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly ref struct ExSpan&lt;T&gt; : IExSpanBase&lt;T&gt;, IReadOnlyExSpanBase&lt;T&gt;, IExLength</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The element type (元素的类型).</p>
+</dd>
+  </dl>
+
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Zyl.ExSpans.IExSpanBase-1.html">IExSpanBase</a>&lt;T&gt;</div>
+      <div><a class="xref" href="Zyl.ExSpans.IReadOnlyExSpanBase-1.html">IReadOnlyExSpanBase</a>&lt;T&gt;</div>
+      <div><a class="xref" href="Zyl.ExSpans.IExLength.html">IExLength</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.equals">ValueType.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode">ValueType.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.BinarySearch.html#Zyl_ExSpans_ExMemoryExtensions_BinarySearch__1_Zyl_ExSpans_ExSpan___0__System_IComparable___0__">ExMemoryExtensions.BinarySearch&lt;T&gt;(ExSpan&lt;T&gt;, IComparable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.BinarySearch.html#Zyl_ExSpans_ExMemoryExtensions_BinarySearch__2_Zyl_ExSpans_ExSpan___0____1_">ExMemoryExtensions.BinarySearch&lt;T, TComparable&gt;(ExSpan&lt;T&gt;, TComparable)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.BinarySearch.html#Zyl_ExSpans_ExMemoryExtensions_BinarySearch__2_Zyl_ExSpans_ExSpan___0____0___1_">ExMemoryExtensions.BinarySearch&lt;T, TComparer&gt;(ExSpan&lt;T&gt;, T, TComparer)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.CommonPrefixLength.html#Zyl_ExSpans_ExMemoryExtensions_CommonPrefixLength__1_Zyl_ExSpans_ExSpan___0__Zyl_ExSpans_ReadOnlyExSpan___0__">ExMemoryExtensions.CommonPrefixLength&lt;T&gt;(ExSpan&lt;T&gt;, ReadOnlyExSpan&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.CommonPrefixLength.html#Zyl_ExSpans_ExMemoryExtensions_CommonPrefixLength__1_Zyl_ExSpans_ExSpan___0__Zyl_ExSpans_ReadOnlyExSpan___0__System_Collections_Generic_IEqualityComparer___0__">ExMemoryExtensions.CommonPrefixLength&lt;T&gt;(ExSpan&lt;T&gt;, ReadOnlyExSpan&lt;T&gt;, IEqualityComparer&lt;T&gt;?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.Fill.html#Zyl_ExSpans_ExMemoryExtensions_Fill__1_Zyl_ExSpans_ExSpan___0____0_">ExMemoryExtensions.Fill&lt;T&gt;(ExSpan&lt;T&gt;, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.Overlaps.html#Zyl_ExSpans_ExMemoryExtensions_Overlaps__1_Zyl_ExSpans_ExSpan___0__Zyl_ExSpans_ReadOnlyExSpan___0__">ExMemoryExtensions.Overlaps&lt;T&gt;(ExSpan&lt;T&gt;, ReadOnlyExSpan&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.Overlaps.html#Zyl_ExSpans_ExMemoryExtensions_Overlaps__1_Zyl_ExSpans_ExSpan___0__Zyl_ExSpans_ReadOnlyExSpan___0__System_Int32__">ExMemoryExtensions.Overlaps&lt;T&gt;(ExSpan&lt;T&gt;, ReadOnlyExSpan&lt;T&gt;, out int)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.Replace.html#Zyl_ExSpans_ExMemoryExtensions_Replace__1_Zyl_ExSpans_ExSpan___0____0___0_System_Collections_Generic_IEqualityComparer___0__">ExMemoryExtensions.Replace&lt;T&gt;(ExSpan&lt;T&gt;, T, T, IEqualityComparer&lt;T&gt;?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.Reverse.html#Zyl_ExSpans_ExMemoryExtensions_Reverse__1_Zyl_ExSpans_ExSpan___0__">ExMemoryExtensions.Reverse&lt;T&gt;(ExSpan&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.SequenceCompareTo.html#Zyl_ExSpans_ExMemoryExtensions_SequenceCompareTo__1_Zyl_ExSpans_ExSpan___0__Zyl_ExSpans_ReadOnlyExSpan___0__System_Collections_Generic_IComparer___0__">ExMemoryExtensions.SequenceCompareTo&lt;T&gt;(ExSpan&lt;T&gt;, ReadOnlyExSpan&lt;T&gt;, IComparer&lt;T&gt;?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.SequenceEqual.html#Zyl_ExSpans_ExMemoryExtensions_SequenceEqual__1_Zyl_ExSpans_ExSpan___0__Zyl_ExSpans_ReadOnlyExSpan___0__System_Collections_Generic_IEqualityComparer___0__">ExMemoryExtensions.SequenceEqual&lt;T&gt;(ExSpan&lt;T&gt;, ReadOnlyExSpan&lt;T&gt;, IEqualityComparer&lt;T&gt;?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.Sort.html#Zyl_ExSpans_ExMemoryExtensions_Sort__1_Zyl_ExSpans_ExSpan___0__">ExMemoryExtensions.Sort&lt;T&gt;(ExSpan&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.Sort.html#Zyl_ExSpans_ExMemoryExtensions_Sort__1_Zyl_ExSpans_ExSpan___0__System_Comparison___0__">ExMemoryExtensions.Sort&lt;T&gt;(ExSpan&lt;T&gt;, Comparison&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.Sort.html#Zyl_ExSpans_ExMemoryExtensions_Sort__2_Zyl_ExSpans_ExSpan___0__Zyl_ExSpans_ExSpan___1__">ExMemoryExtensions.Sort&lt;TKey, TValue&gt;(ExSpan&lt;TKey&gt;, ExSpan&lt;TValue&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.Sort.html#Zyl_ExSpans_ExMemoryExtensions_Sort__2_Zyl_ExSpans_ExSpan___0__Zyl_ExSpans_ExSpan___1__System_Comparison___0__">ExMemoryExtensions.Sort&lt;TKey, TValue&gt;(ExSpan&lt;TKey&gt;, ExSpan&lt;TValue&gt;, Comparison&lt;TKey&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.Sort.html#Zyl_ExSpans_ExMemoryExtensions_Sort__2_Zyl_ExSpans_ExSpan___0____1_">ExMemoryExtensions.Sort&lt;T, TComparer&gt;(ExSpan&lt;T&gt;, TComparer)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExMemoryExtensions.Sort.html#Zyl_ExSpans_ExMemoryExtensions_Sort__3_Zyl_ExSpans_ExSpan___0__Zyl_ExSpans_ExSpan___1____2_">ExMemoryExtensions.Sort&lt;TKey, TValue, TComparer&gt;(ExSpan&lt;TKey&gt;, ExSpan&lt;TValue&gt;, TComparer)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.AsReadOnlyExSpan.html#Zyl_ExSpans_ExSpanExtensions_AsReadOnlyExSpan__1_Zyl_ExSpans_ExSpan___0__">ExSpanExtensions.AsReadOnlyExSpan&lt;T&gt;(ExSpan&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.AsSpan.html#Zyl_ExSpans_ExSpanExtensions_AsSpan__1_Zyl_ExSpans_ExSpan___0__">ExSpanExtensions.AsSpan&lt;T&gt;(ExSpan&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.AsSpan.html#Zyl_ExSpans_ExSpanExtensions_AsSpan__1_Zyl_ExSpans_ExSpan___0__System_IntPtr_">ExSpanExtensions.AsSpan&lt;T&gt;(ExSpan&lt;T&gt;, nint)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.AsSpan.html#Zyl_ExSpans_ExSpanExtensions_AsSpan__1_Zyl_ExSpans_ExSpan___0__System_IntPtr_System_Int32_">ExSpanExtensions.AsSpan&lt;T&gt;(ExSpan&lt;T&gt;, nint, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.ItemsAppendStringTo.html#Zyl_ExSpans_ExSpanExtensions_ItemsAppendStringTo__1_Zyl_ExSpans_ExSpan___0__System_Action_System_String__System_Func_System_IntPtr___0_System_String__Zyl_ExSpans_ItemsToStringFlags_Zyl_ExSpans_Reflection_TypeNameFlags_">ExSpanExtensions.ItemsAppendStringTo&lt;T&gt;(ExSpan&lt;T&gt;, Action&lt;string&gt;, Func&lt;nint, T, string&gt;?, ItemsToStringFlags, TypeNameFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.ItemsAppendStringTo.html#Zyl_ExSpans_ExSpanExtensions_ItemsAppendStringTo__1_Zyl_ExSpans_ExSpan___0__System_Action_System_String__System_IntPtr_System_IntPtr_System_Func_System_IntPtr___0_System_String__Zyl_ExSpans_ItemsToStringFlags_Zyl_ExSpans_Reflection_TypeNameFlags_">ExSpanExtensions.ItemsAppendStringTo&lt;T&gt;(ExSpan&lt;T&gt;, Action&lt;string&gt;, nint, nint, Func&lt;nint, T, string&gt;?, ItemsToStringFlags, TypeNameFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.ItemsAppendString.html#Zyl_ExSpans_ExSpanExtensions_ItemsAppendString__1_Zyl_ExSpans_ExSpan___0__System_Text_StringBuilder_System_Func_System_IntPtr___0_System_String__Zyl_ExSpans_ItemsToStringFlags_Zyl_ExSpans_Reflection_TypeNameFlags_">ExSpanExtensions.ItemsAppendString&lt;T&gt;(ExSpan&lt;T&gt;, StringBuilder, Func&lt;nint, T, string&gt;?, ItemsToStringFlags, TypeNameFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.ItemsAppendString.html#Zyl_ExSpans_ExSpanExtensions_ItemsAppendString__1_Zyl_ExSpans_ExSpan___0__System_Text_StringBuilder_System_IntPtr_System_IntPtr_System_Func_System_IntPtr___0_System_String__Zyl_ExSpans_ItemsToStringFlags_Zyl_ExSpans_Reflection_TypeNameFlags_">ExSpanExtensions.ItemsAppendString&lt;T&gt;(ExSpan&lt;T&gt;, StringBuilder, nint, nint, Func&lt;nint, T, string&gt;?, ItemsToStringFlags, TypeNameFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.ItemsToString.html#Zyl_ExSpans_ExSpanExtensions_ItemsToString__1_Zyl_ExSpans_ExSpan___0__System_Func_System_IntPtr___0_System_String__Zyl_ExSpans_ItemsToStringFlags_Zyl_ExSpans_Reflection_TypeNameFlags_">ExSpanExtensions.ItemsToString&lt;T&gt;(ExSpan&lt;T&gt;, Func&lt;nint, T, string&gt;?, ItemsToStringFlags, TypeNameFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.ItemsToString.html#Zyl_ExSpans_ExSpanExtensions_ItemsToString__1_Zyl_ExSpans_ExSpan___0__System_IntPtr_System_IntPtr_System_Func_System_IntPtr___0_System_String__Zyl_ExSpans_ItemsToStringFlags_Zyl_ExSpans_Reflection_TypeNameFlags_">ExSpanExtensions.ItemsToString&lt;T&gt;(ExSpan&lt;T&gt;, nint, nint, Func&lt;nint, T, string&gt;?, ItemsToStringFlags, TypeNameFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.LastAsSpan.html#Zyl_ExSpans_ExSpanExtensions_LastAsSpan__1_Zyl_ExSpans_ExSpan___0__">ExSpanExtensions.LastAsSpan&lt;T&gt;(ExSpan&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.LastAsSpan.html#Zyl_ExSpans_ExSpanExtensions_LastAsSpan__1_Zyl_ExSpans_ExSpan___0__System_IntPtr_System_Int32_">ExSpanExtensions.LastAsSpan&lt;T&gt;(ExSpan&lt;T&gt;, nint, int)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.-ctor.html#Zyl_ExSpans_ExSpan_1__ctor_System_Void__System_IntPtr_">ExSpan(void*, nint)</a></dt>
+    <dd><p>Creates a new <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> over the target unmanaged buffer (在目标非托管缓冲区上创建新 <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a>).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.-ctor.html#Zyl_ExSpans_ExSpan_1__ctor__0__">ExSpan(ref T)</a></dt>
+    <dd><p>Creates a new <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> of length 1 around the specified reference (在指定的引用周围创建长度为 1 的新 <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a>).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.-ctor.html#Zyl_ExSpans_ExSpan_1__ctor__0___">ExSpan(T[]?)</a></dt>
+    <dd><p>Creates a new <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> over the entirety of the target array (在整个指定数组中创建新的 <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a>).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.-ctor.html#Zyl_ExSpans_ExSpan_1__ctor__0___System_IntPtr_System_IntPtr_">ExSpan(T[]?, nint, nint)</a></dt>
+    <dd><p>Creates a new <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> over the portion of the target array beginning at 'start' index and ending at 'end' index (exclusive) (创建一个新的 <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a>，其中包含从指定索引开始的数组的指定数量的元素).</p>
+</dd>
+  </dl>
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.Empty.html#Zyl_ExSpans_ExSpan_1_Empty">Empty</a></dt>
+    <dd><p>Returns an empty <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> (返回空的 <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a>).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.IsEmpty.html#Zyl_ExSpans_ExSpan_1_IsEmpty">IsEmpty</a></dt>
+    <dd><p>Gets a value indicating whether this <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> is empty (返回一个值，该值指示当前扩展跨度为空).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.Item.html#Zyl_ExSpans_ExSpan_1_Item_System_IntPtr_">this[nint]</a></dt>
+    <dd><p>Returns the specified element of the Ex span (从扩展跨度中返回指定项).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.Length.html#Zyl_ExSpans_ExSpan_1_Length">Length</a></dt>
+    <dd><p>The number of items in the Ex span (扩展跨度中的项数).</p>
+</dd>
+  </dl>
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.Clear.html#Zyl_ExSpans_ExSpan_1_Clear">Clear()</a></dt>
+    <dd><p>Clears the contents of this ExSpan.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.CopyTo.html#Zyl_ExSpans_ExSpan_1_CopyTo_Zyl_ExSpans_ExSpan__0__">CopyTo(ExSpan&lt;T&gt;)</a></dt>
+    <dd><p>Copies the contents of this span into destination span. If the source
+and destinations overlap, this method behaves as if the original values in
+a temporary location before the destination is overwritten
+(将此跨度的内容复制到目标跨度. 如果源和目标重叠, 则此方法的行为就像覆盖目标之前临时位置中的原始值一样).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.GetEnumerator.html#Zyl_ExSpans_ExSpan_1_GetEnumerator">GetEnumerator()</a></dt>
+    <dd><p>Gets an enumerator for this span (返回此跨度的枚举器).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.LastSlice.html#Zyl_ExSpans_ExSpan_1_LastSlice_System_IntPtr_">LastSlice(nint)</a></dt>
+    <dd><p>Forms a slice out of the given Ex span, last beginning at 'TSize' (从尾部指定索引处的扩展跨度形成切片).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.LastSlice.html#Zyl_ExSpans_ExSpan_1_LastSlice_System_IntPtr_System_IntPtr_">LastSlice(nint, nint)</a></dt>
+    <dd><p>Forms a slice out of the given Ex span, last beginning at 'end', of given length (从尾部指定长度的指定索引处开始的当前扩展跨度形成切片)</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.Slice.html#Zyl_ExSpans_ExSpan_1_Slice_System_IntPtr_">Slice(nint)</a></dt>
+    <dd><p>Forms a slice out of the given Ex span, beginning at 'start' (从指定索引处开始的扩展跨度形成切片).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.Slice.html#Zyl_ExSpans_ExSpan_1_Slice_System_IntPtr_System_IntPtr_">Slice(nint, nint)</a></dt>
+    <dd><p>Forms a slice out of the given Ex span, beginning at 'start', of given length (从指定长度的指定索引处开始的当前扩展跨度形成切片).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.ToArray.html#Zyl_ExSpans_ExSpan_1_ToArray">ToArray()</a></dt>
+    <dd><p>Copies the contents of this span into a new array. The maxLength parameter uses the value of <a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.ArrayMaxLengthSafe.html">ArrayMaxLengthSafe</a> (将此范围的内容复制到新建数组中. maxLength 参数使用 <a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.ArrayMaxLengthSafe.html">ArrayMaxLengthSafe</a> 的值).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.ToArray.html#Zyl_ExSpans_ExSpan_1_ToArray_System_Int32_">ToArray(int)</a></dt>
+    <dd><p>Copies the contents of this span into a new array. It has a maxLength parameters (将此跨度的内容复制到新建数组中. 它具有 maxLength 参数).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.ToString.html#Zyl_ExSpans_ExSpan_1_ToString">ToString()</a></dt>
+    <dd><p>Returns the string representation of this <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> (返回此 <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> 的字符串表示形式).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.TryCopyTo.html#Zyl_ExSpans_ExSpan_1_TryCopyTo_Zyl_ExSpans_ExSpan__0__">TryCopyTo(ExSpan&lt;T&gt;)</a></dt>
+    <dd><p>Try copies the contents of this span into destination span. If the source
+and destinations overlap, this method behaves as if the original values in
+a temporary location before the destination is overwritten
+(尝试将此只读跨度的内容复制到目标跨度. 如果源和目标重叠, 则此方法的行为就像覆盖目标之前临时位置中的原始值一样).</p>
+</dd>
+  </dl>
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.op_Equality.html#Zyl_ExSpans_ExSpan_1_op_Equality_Zyl_ExSpans_ExSpan__0__Zyl_ExSpans_ExSpan__0__">operator ==(ExSpan&lt;T&gt;, ExSpan&lt;T&gt;)</a></dt>
+    <dd><p>Returns a value that indicates whether two <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> instances are equal (返回一个值，该值指示两个 <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> 实例是否相等).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.op_Explicit.html#Zyl_ExSpans_ExSpan_1_op_Explicit_Zyl_ExSpans_ExSpan__0___System_Span__0_">explicit operator Span&lt;T&gt;(ExSpan&lt;T&gt;)</a></dt>
+    <dd><p>Defines an explicit conversion of a <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> to a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.span-1">Span&lt;T&gt;</a>. The length will saturating limited to the maximum length it supports (定义 <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> 到 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.span-1">Span&lt;T&gt;</a> 的显式转换. 长度会饱和限制为它所支持的最大长度).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.op_Implicit.html#Zyl_ExSpans_ExSpan_1_op_Implicit_System_ArraySegment__0___Zyl_ExSpans_ExSpan__0_">implicit operator ExSpan&lt;T&gt;(ArraySegment&lt;T&gt;)</a></dt>
+    <dd><p>Defines an implicit conversion of a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.arraysegment-1">ArraySegment&lt;T&gt;</a> to a <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> (定义 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.arraysegment-1">ArraySegment&lt;T&gt;</a> 到 <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> 的隐式转换)</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.op_Implicit.html#Zyl_ExSpans_ExSpan_1_op_Implicit_System_Span__0___Zyl_ExSpans_ExSpan__0_">implicit operator ExSpan&lt;T&gt;(Span&lt;T&gt;)</a></dt>
+    <dd><p>Defines an implicit conversion of a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.span-1">Span&lt;T&gt;</a> to a <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> (定义 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.span-1">Span&lt;T&gt;</a> 到 <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> 的隐式转换).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.op_Implicit.html#Zyl_ExSpans_ExSpan_1_op_Implicit_Zyl_ExSpans_ExSpan__0___Zyl_ExSpans_ReadOnlyExSpan__0_">implicit operator ReadOnlyExSpan&lt;T&gt;(ExSpan&lt;T&gt;)</a></dt>
+    <dd><p>Defines an implicit conversion of a <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> to a <a class="xref" href="Zyl.ExSpans.ReadOnlyExSpan-1.html">ReadOnlyExSpan&lt;T&gt;</a> (定义 <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> 到 <a class="xref" href="Zyl.ExSpans.ReadOnlyExSpan-1.html">ReadOnlyExSpan&lt;T&gt;</a> 的隐式转换).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.op_Implicit.html#Zyl_ExSpans_ExSpan_1_op_Implicit__0____Zyl_ExSpans_ExSpan__0_">implicit operator ExSpan&lt;T&gt;(T[]?)</a></dt>
+    <dd><p>Defines an implicit conversion of an array to a <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> (定义数组到 <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> 的隐式转换)</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExSpan-1.op_Inequality.html#Zyl_ExSpans_ExSpan_1_op_Inequality_Zyl_ExSpans_ExSpan__0__Zyl_ExSpans_ExSpan__0__">operator !=(ExSpan&lt;T&gt;, ExSpan&lt;T&gt;)</a></dt>
+    <dd><p>Returns a value that indicates whether two <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> instances are not equal (返回一个值，该值指示两个 <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> 实例是否不相等).</p>
+</dd>
+  </dl>
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans.Core/ExSpan.Ex.cs/#L14" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

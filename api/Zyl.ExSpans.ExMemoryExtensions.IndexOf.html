@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Method IndexOf | ExSpans </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Method IndexOf | ExSpans ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/zyl910/ExSpans/new/main/apiSpec/new?filename=Zyl_ExSpans_ExMemoryExtensions_IndexOf_.md&amp;value=---%0Auid%3A%20Zyl.ExSpans.ExMemoryExtensions.IndexOf*%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="ExSpans">
+            ExSpans
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Zyl.ExSpans.ExMemoryExtensions.IndexOf*">
+
+
+
+
+
+<h1 id="Zyl_ExSpans_ExMemoryExtensions_IndexOf_" data-uid="Zyl.ExSpans.ExMemoryExtensions.IndexOf*" class="text-break">
+Method IndexOf  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/ExMemoryExtensions.cs/#L511"><i class="bi bi-code-slash"></i></a>
+</h1>
+
+<div class="facts text-secondary">
+  <dl><dt>Namespace</dt><dd><a class="xref" href="Zyl.html">Zyl</a>.<a class="xref" href="Zyl.ExSpans.html">ExSpans</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ExSpans.dll</dd></dl>
+</div>
+
+<div class="markdown summary"></div>
+<div class="markdown conceptual"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a id="Zyl_ExSpans_ExMemoryExtensions_IndexOf_" data-uid="Zyl.ExSpans.ExMemoryExtensions.IndexOf*"></a>
+
+<h3 id="Zyl_ExSpans_ExMemoryExtensions_IndexOf__1_Zyl_ExSpans_ExSpan___0____0_" data-uid="Zyl.ExSpans.ExMemoryExtensions.IndexOf``1(Zyl.ExSpans.ExSpan{``0},``0)">
+  IndexOf&lt;T&gt;(ExSpan&lt;T&gt;, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/ExMemoryExtensions.cs/#L511"><i class="bi bi-code-slash"></i></a>
+</h3>
+
+<div class="markdown level1 summary"><p>Searches for the specified value and returns the index of its first occurrence. If not found, returns -1. Values are compared using IEquatable{T}.Equals(T).</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static nint IndexOf&lt;T&gt;(this ExSpan&lt;T&gt; span, T value) where T : IEquatable&lt;T&gt;?</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>span</code> <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan</a>&lt;T&gt;</dt>
+  <dd><p>The span to search.</p>
+</dd>
+  <dt><code>value</code> <span class="xref">T</span></dt>
+  <dd><p>The value to search for.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+  <dd></dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd></dd>
+</dl>
+
+
+
+
+
+
+
+
+
+
+<a id="Zyl_ExSpans_ExMemoryExtensions_IndexOf_" data-uid="Zyl.ExSpans.ExMemoryExtensions.IndexOf*"></a>
+
+<h3 id="Zyl_ExSpans_ExMemoryExtensions_IndexOf__1_Zyl_ExSpans_ExSpan___0__Zyl_ExSpans_ReadOnlyExSpan___0__" data-uid="Zyl.ExSpans.ExMemoryExtensions.IndexOf``1(Zyl.ExSpans.ExSpan{``0},Zyl.ExSpans.ReadOnlyExSpan{``0})">
+  IndexOf&lt;T&gt;(ExSpan&lt;T&gt;, ReadOnlyExSpan&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/ExMemoryExtensions.cs/#L521"><i class="bi bi-code-slash"></i></a>
+</h3>
+
+<div class="markdown level1 summary"><p>Searches for the specified sequence and returns the index of its first occurrence. If not found, returns -1. Values are compared using IEquatable{T}.Equals(T).</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static nint IndexOf&lt;T&gt;(this ExSpan&lt;T&gt; span, ReadOnlyExSpan&lt;T&gt; value) where T : IEquatable&lt;T&gt;?</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>span</code> <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan</a>&lt;T&gt;</dt>
+  <dd><p>The span to search.</p>
+</dd>
+  <dt><code>value</code> <a class="xref" href="Zyl.ExSpans.ReadOnlyExSpan-1.html">ReadOnlyExSpan</a>&lt;T&gt;</dt>
+  <dd><p>The sequence to search for.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+  <dd></dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd></dd>
+</dl>
+
+
+
+
+
+
+
+
+
+
+<a id="Zyl_ExSpans_ExMemoryExtensions_IndexOf_" data-uid="Zyl.ExSpans.ExMemoryExtensions.IndexOf*"></a>
+
+<h3 id="Zyl_ExSpans_ExMemoryExtensions_IndexOf__1_Zyl_ExSpans_ReadOnlyExSpan___0____0_" data-uid="Zyl.ExSpans.ExMemoryExtensions.IndexOf``1(Zyl.ExSpans.ReadOnlyExSpan{``0},``0)">
+  IndexOf&lt;T&gt;(ReadOnlyExSpan&lt;T&gt;, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/ExMemoryExtensions.cs/#L1815"><i class="bi bi-code-slash"></i></a>
+</h3>
+
+<div class="markdown level1 summary"><p>Searches for the specified value and returns the index of its first occurrence. If not found, returns -1. Values are compared using IEquatable{T}.Equals(T).</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static nint IndexOf&lt;T&gt;(this ReadOnlyExSpan&lt;T&gt; span, T value) where T : IEquatable&lt;T&gt;?</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>span</code> <a class="xref" href="Zyl.ExSpans.ReadOnlyExSpan-1.html">ReadOnlyExSpan</a>&lt;T&gt;</dt>
+  <dd><p>The span to search.</p>
+</dd>
+  <dt><code>value</code> <span class="xref">T</span></dt>
+  <dd><p>The value to search for.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+  <dd></dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd></dd>
+</dl>
+
+
+
+
+
+
+
+
+
+
+<a id="Zyl_ExSpans_ExMemoryExtensions_IndexOf_" data-uid="Zyl.ExSpans.ExMemoryExtensions.IndexOf*"></a>
+
+<h3 id="Zyl_ExSpans_ExMemoryExtensions_IndexOf__1_Zyl_ExSpans_ReadOnlyExSpan___0____0_System_Collections_Generic_IEqualityComparer___0__" data-uid="Zyl.ExSpans.ExMemoryExtensions.IndexOf``1(Zyl.ExSpans.ReadOnlyExSpan{``0},``0,System.Collections.Generic.IEqualityComparer{``0})">
+  IndexOf&lt;T&gt;(ReadOnlyExSpan&lt;T&gt;, T, IEqualityComparer&lt;T&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/ExMemoryExtensions.cs/#L1852"><i class="bi bi-code-slash"></i></a>
+</h3>
+
+<div class="markdown level1 summary"><p>Searches for the specified value and returns the index of its first occurrence. If not found, returns -1. Values are compared using IEquatable{T}.Equals(T).</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static nint IndexOf&lt;T&gt;(this ReadOnlyExSpan&lt;T&gt; span, T value, IEqualityComparer&lt;T&gt;? comparer = null)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>span</code> <a class="xref" href="Zyl.ExSpans.ReadOnlyExSpan-1.html">ReadOnlyExSpan</a>&lt;T&gt;</dt>
+  <dd><p>The span to search.</p>
+</dd>
+  <dt><code>value</code> <span class="xref">T</span></dt>
+  <dd><p>The value to search for.</p>
+</dd>
+  <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;T&gt;</dt>
+  <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer&lt;T&gt;</a> implementation to use when comparing elements, or <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> to use the default <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer&lt;T&gt;</a> for the type of an element.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+  <dd></dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd></dd>
+</dl>
+
+
+
+
+
+
+
+
+
+
+<a id="Zyl_ExSpans_ExMemoryExtensions_IndexOf_" data-uid="Zyl.ExSpans.ExMemoryExtensions.IndexOf*"></a>
+
+<h3 id="Zyl_ExSpans_ExMemoryExtensions_IndexOf__1_Zyl_ExSpans_ReadOnlyExSpan___0__Zyl_ExSpans_ReadOnlyExSpan___0__" data-uid="Zyl.ExSpans.ExMemoryExtensions.IndexOf``1(Zyl.ExSpans.ReadOnlyExSpan{``0},Zyl.ExSpans.ReadOnlyExSpan{``0})">
+  IndexOf&lt;T&gt;(ReadOnlyExSpan&lt;T&gt;, ReadOnlyExSpan&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/ExMemoryExtensions.cs/#L1911"><i class="bi bi-code-slash"></i></a>
+</h3>
+
+<div class="markdown level1 summary"><p>Searches for the specified sequence and returns the index of its first occurrence. If not found, returns -1. Values are compared using IEquatable{T}.Equals(T).</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static nint IndexOf&lt;T&gt;(this ReadOnlyExSpan&lt;T&gt; span, ReadOnlyExSpan&lt;T&gt; value) where T : IEquatable&lt;T&gt;?</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>span</code> <a class="xref" href="Zyl.ExSpans.ReadOnlyExSpan-1.html">ReadOnlyExSpan</a>&lt;T&gt;</dt>
+  <dd><p>The span to search.</p>
+</dd>
+  <dt><code>value</code> <a class="xref" href="Zyl.ExSpans.ReadOnlyExSpan-1.html">ReadOnlyExSpan</a>&lt;T&gt;</dt>
+  <dd><p>The sequence to search for.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+  <dd></dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd></dd>
+</dl>
+
+
+
+
+
+
+
+
+
+
+<a id="Zyl_ExSpans_ExMemoryExtensions_IndexOf_" data-uid="Zyl.ExSpans.ExMemoryExtensions.IndexOf*"></a>
+
+<h3 id="Zyl_ExSpans_ExMemoryExtensions_IndexOf__1_Zyl_ExSpans_ReadOnlyExSpan___0__Zyl_ExSpans_ReadOnlyExSpan___0__System_Collections_Generic_IEqualityComparer___0__" data-uid="Zyl.ExSpans.ExMemoryExtensions.IndexOf``1(Zyl.ExSpans.ReadOnlyExSpan{``0},Zyl.ExSpans.ReadOnlyExSpan{``0},System.Collections.Generic.IEqualityComparer{``0})">
+  IndexOf&lt;T&gt;(ReadOnlyExSpan&lt;T&gt;, ReadOnlyExSpan&lt;T&gt;, IEqualityComparer&lt;T&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/ExMemoryExtensions.cs/#L1938"><i class="bi bi-code-slash"></i></a>
+</h3>
+
+<div class="markdown level1 summary"><p>Searches for the specified sequence and returns the index of its first occurrence. If not found, returns -1. Values are compared using IEquatable{T}.Equals(T).</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static nint IndexOf&lt;T&gt;(this ReadOnlyExSpan&lt;T&gt; span, ReadOnlyExSpan&lt;T&gt; value, IEqualityComparer&lt;T&gt;? comparer = null)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>span</code> <a class="xref" href="Zyl.ExSpans.ReadOnlyExSpan-1.html">ReadOnlyExSpan</a>&lt;T&gt;</dt>
+  <dd><p>The span to search.</p>
+</dd>
+  <dt><code>value</code> <a class="xref" href="Zyl.ExSpans.ReadOnlyExSpan-1.html">ReadOnlyExSpan</a>&lt;T&gt;</dt>
+  <dd><p>The sequence to search for.</p>
+</dd>
+  <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;T&gt;</dt>
+  <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer&lt;T&gt;</a> implementation to use when comparing elements, or <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> to use the default <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer&lt;T&gt;</a> for the type of an element.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+  <dd></dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd></dd>
+</dl>
+
+
+
+
+
+
+
+
+
+
+<a id="Zyl_ExSpans_ExMemoryExtensions_IndexOf_" data-uid="Zyl.ExSpans.ExMemoryExtensions.IndexOf*"></a>
+
+<h3 id="Zyl_ExSpans_ExMemoryExtensions_IndexOf_Zyl_ExSpans_ReadOnlyExSpan_System_Char__Zyl_ExSpans_ReadOnlyExSpan_System_Char__System_StringComparison_" data-uid="Zyl.ExSpans.ExMemoryExtensions.IndexOf(Zyl.ExSpans.ReadOnlyExSpan{System.Char},Zyl.ExSpans.ReadOnlyExSpan{System.Char},System.StringComparison)">
+  IndexOf(ReadOnlyExSpan&lt;char&gt;, ReadOnlyExSpan&lt;char&gt;, StringComparison)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/ExMemoryExtensions.Globalization.cs/#L140"><i class="bi bi-code-slash"></i></a>
+</h3>
+
+<div class="markdown level1 summary"><p>Reports the zero-based index of the first occurrence of the specified <code class="paramref">value</code> in the current <code class="paramref">span</code>.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static nint IndexOf(this ReadOnlyExSpan&lt;char&gt; span, ReadOnlyExSpan&lt;char&gt; value, StringComparison comparisonType)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>span</code> <a class="xref" href="Zyl.ExSpans.ReadOnlyExSpan-1.html">ReadOnlyExSpan</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a>&gt;</dt>
+  <dd><p>The source span.</p>
+</dd>
+  <dt><code>value</code> <a class="xref" href="Zyl.ExSpans.ReadOnlyExSpan-1.html">ReadOnlyExSpan</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a>&gt;</dt>
+  <dd><p>The value to seek within the source span.</p>
+</dd>
+  <dt><code>comparisonType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.stringcomparison">StringComparison</a></dt>
+  <dd><p>One of the enumeration values that determines how the <code class="paramref">span</code> and <code class="paramref">value</code> are compared.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+  <dd></dd>
+</dl>
+
+
+
+
+
+
+
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Zyl.ExSpans.Exceptions.ExSpanTooLongException.html">ExSpanTooLongException</a></dt>
+  <dd><p>Throws an exception if the length is out of the range of Int32.</p>
+</dd>
+</dl>
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/ExMemoryExtensions.cs/#L511" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

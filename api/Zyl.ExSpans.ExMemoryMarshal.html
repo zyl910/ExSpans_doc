@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ExMemoryMarshal | ExSpans </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ExMemoryMarshal | ExSpans ">
+      
+      <meta name="description" content="Provides a collection of methods for interoperating with , and . It can be regarded as the  of  index range (提供与 ExSpan 和 ExReadOnlySpan 互操作的方法. 它可以被视为  索引范围的 MemoryMarshal).">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/zyl910/ExSpans/new/main/apiSpec/new?filename=Zyl_ExSpans_ExMemoryMarshal.md&amp;value=---%0Auid%3A%20Zyl.ExSpans.ExMemoryMarshal%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="ExSpans">
+            ExSpans
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Zyl.ExSpans.ExMemoryMarshal">
+
+
+
+  <h1 id="Zyl_ExSpans_ExMemoryMarshal" data-uid="Zyl.ExSpans.ExMemoryMarshal" class="text-break">
+Class ExMemoryMarshal  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans.Core/ExMemoryMarshal.Helpers.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Zyl.html">Zyl</a>.<a class="xref" href="Zyl.ExSpans.html">ExSpans</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ExSpans.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Provides a collection of methods for interoperating with <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a>, and <a class="xref" href="Zyl.ExSpans.ReadOnlyExSpan-1.html">ReadOnlyExSpan&lt;T&gt;</a>. It can be regarded as the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.memorymarshal">MemoryMarshal</a> of <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a> index range (提供与 ExSpan 和 ExReadOnlySpan 互操作的方法. 它可以被视为 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a> 索引范围的 MemoryMarshal).</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ExMemoryMarshal</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ExMemoryMarshal</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.ArrayMaxLengthSafe.html">ArrayMaxLengthSafe</a></dt>
+    <dd><p>The safe maximum length of array (安全的数组最大长度).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.SpanViewLength.html">SpanViewLength</a></dt>
+    <dd><p>The length of the view span (查看跨度的长度).</p>
+</dd>
+  </dl>
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.Is64BitProcess.html#Zyl_ExSpans_ExMemoryMarshal_Is64BitProcess">Is64BitProcess</a></dt>
+    <dd><p>Gets a value that indicates whether the current process is a 64-bit process (获取一个值，该值指示当前进程是否为 64 位进程).</p>
+</dd>
+  </dl>
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.AsBytes.html#Zyl_ExSpans_ExMemoryMarshal_AsBytes__1_Zyl_ExSpans_ExSpan___0__">AsBytes&lt;T&gt;(ExSpan&lt;T&gt;)</a></dt>
+    <dd><p>Casts a ExSpan of one primitive type <code class="typeparamref">T</code> to ExSpan of bytes.
+That type may not contain pointers or references. This is checked at runtime in order to preserve type safety
+(将一个基元类型<code class="typeparamref">T</code>的ExSpan 转换为字节的ExSpan. 该类型不能包含指针或引用. 它会在运行时检查这一点, 以保护类型安全).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.AsBytes.html#Zyl_ExSpans_ExMemoryMarshal_AsBytes__1_Zyl_ExSpans_ReadOnlyExSpan___0__">AsBytes&lt;T&gt;(ReadOnlyExSpan&lt;T&gt;)</a></dt>
+    <dd><p>Casts a ReadOnlyExSpan of one primitive type <code class="typeparamref">T</code> to ReadOnlyExSpan of bytes.
+That type may not contain pointers or references. This is checked at runtime in order to preserve type safety.
+(将一个基元类型<code class="typeparamref">T</code>的ExSpan 转换为字节的ReadOnlyExSpan. 该类型不能包含指针或引用. 它会在运行时检查这一点, 以保护类型安全).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.AsRef.html#Zyl_ExSpans_ExMemoryMarshal_AsRef__1_Zyl_ExSpans_ExSpan_System_Byte__">AsRef&lt;T&gt;(ExSpan&lt;byte&gt;)</a></dt>
+    <dd><p>Re-interprets a span of bytes as a reference to structure of type <code class="typeparamref">T</code>.
+The type may not contain pointers or references. This is checked at runtime in order to preserve type safety.
+(将字节跨度重新解释为对 <code class="typeparamref">T</code> 类型结构体的引用. 该类型不能包含指针或引用. 它会在运行时检查这一点, 以保护类型安全).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.AsRef.html#Zyl_ExSpans_ExMemoryMarshal_AsRef__1_Zyl_ExSpans_ReadOnlyExSpan_System_Byte__">AsRef&lt;T&gt;(ReadOnlyExSpan&lt;byte&gt;)</a></dt>
+    <dd><p>Re-interprets a read-only span of bytes as a reference to structure of type <code class="typeparamref">T</code>.
+The type may not contain pointers or references. This is checked at runtime in order to preserve type safety.
+(将字节只读跨度重新解释为对 <code class="typeparamref">T</code> 类型结构体的引用. 该类型不能包含指针或引用. 它会在运行时检查这一点, 以保护类型安全).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.Cast.html#Zyl_ExSpans_ExMemoryMarshal_Cast__2_Zyl_ExSpans_ExSpan___0__">Cast&lt;TFrom, TTo&gt;(ExSpan&lt;TFrom&gt;)</a></dt>
+    <dd><p>Casts a ExSpan of one primitive type <code class="typeparamref">TFrom</code> to another primitive type <code class="typeparamref">TTo</code>.
+These types may not contain pointers or references. This is checked at runtime in order to preserve type safety.
+(将一种基元类型 <code class="typeparamref">TFrom</code>的ExSpan 转换为另一种基元类型 <code class="typeparamref">TTo</code>. 该类型不能包含指针或引用。它会在运行时检查这一点，以保护类型安全).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.Cast.html#Zyl_ExSpans_ExMemoryMarshal_Cast__2_Zyl_ExSpans_ReadOnlyExSpan___0__">Cast&lt;TFrom, TTo&gt;(ReadOnlyExSpan&lt;TFrom&gt;)</a></dt>
+    <dd><p>Casts a ReadOnlyExSpan of one primitive type <code class="typeparamref">TFrom</code> to another primitive type <code class="typeparamref">TTo</code>.
+These types may not contain pointers or references. This is checked at runtime in order to preserve type safety.
+(将一种基元类型<code class="typeparamref">TFrom</code>的 ReadOnlyExSpan 转换为另一种基元类型 <code class="typeparamref">TTo</code>. 该类型不能包含指针或引用。它会在运行时检查这一点，以保护类型安全).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.CreateExSpan.html#Zyl_ExSpans_ExMemoryMarshal_CreateExSpan__1___0__System_IntPtr_">CreateExSpan&lt;T&gt;(scoped ref T, nint)</a></dt>
+    <dd><p>Creates a new span over a portion of a regular managed object. This can be useful
+if part of a managed object represents a &quot;fixed array.&quot; This is dangerous because the
+<code class="paramref">length</code> is not checked
+(根据常规托管对象的一部分来创建新的跨度. 如果托管对象的一部分表示了 “固定数组”, 这可能会很有用. 这很危险, 因为不会检查 <code class="paramref">length</code>).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.CreateReadOnlyExSpanFromNullTerminated.html#Zyl_ExSpans_ExMemoryMarshal_CreateReadOnlyExSpanFromNullTerminated_System_Byte__">CreateReadOnlyExSpanFromNullTerminated(byte*)</a></dt>
+    <dd><p>Creates a new read-only span for a null-terminated UTF-8 string (为 空终止UTF-8字符串 创建新的只读跨度).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.CreateReadOnlyExSpanFromNullTerminated.html#Zyl_ExSpans_ExMemoryMarshal_CreateReadOnlyExSpanFromNullTerminated_System_Char__">CreateReadOnlyExSpanFromNullTerminated(char*)</a></dt>
+    <dd><p>Creates a new read-only span for a null-terminated string (为 空终止字符串 创建新的只读跨度).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.CreateReadOnlyExSpan.html#Zyl_ExSpans_ExMemoryMarshal_CreateReadOnlyExSpan__1___0__System_IntPtr_">CreateReadOnlyExSpan&lt;T&gt;(scoped ref readonly T, nint)</a></dt>
+    <dd><p>Creates a new read-only span over a portion of a regular managed object. This can be useful
+if part of a managed object represents a &quot;fixed array.&quot; This is dangerous because the
+<code class="paramref">length</code> is not checked
+(根据常规托管对象的一部分来创建新的只读跨度. 如果托管对象的一部分表示了 “固定数组”, 这可能会很有用. 这很危险, 因为不会检查 <code class="paramref">length</code>).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.GetArrayDataReference.html#Zyl_ExSpans_ExMemoryMarshal_GetArrayDataReference__1___0___">GetArrayDataReference&lt;T&gt;(T[])</a></dt>
+    <dd><p>Returns a reference to the 0th element of <code class="paramref">array</code>. If the array is empty, returns a null reference. Such a reference may be used for pinning but must never be dereferenced (返回对 array 中第 0 个元素的引用。 如果数组为空，则返回对 null 引用。 此类引用可用于固定，但绝不能取消引用).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.GetReference.html#Zyl_ExSpans_ExMemoryMarshal_GetReference__1_Zyl_ExSpans_ExSpan___0__">GetReference&lt;T&gt;(ExSpan&lt;T&gt;)</a></dt>
+    <dd><p>Returns a reference to the 0th element of the ExSpan. Such a reference may or may not be null. It can be used for pinning but must never be dereferenced
+(返回 ExSpan 中索引为 0 处元素的引用. 这样的引用可能为空, 也可能不为空. 它可以用于固定, 但绝不能解引用).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.GetReference.html#Zyl_ExSpans_ExMemoryMarshal_GetReference__1_Zyl_ExSpans_ReadOnlyExSpan___0__">GetReference&lt;T&gt;(ReadOnlyExSpan&lt;T&gt;)</a></dt>
+    <dd><p>Returns a reference to the 0th element of the ReadOnlyExSpan. Such a reference may or may not be null. It can be used for pinning but must never be dereferenced
+(返回 ReadOnlyExSpan 中索引为 0 处元素的引用. 这样的引用可能为空, 也可能不为空. 它可以用于固定, 但绝不能解引用).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.Read.html#Zyl_ExSpans_ExMemoryMarshal_Read__1_Zyl_ExSpans_ReadOnlyExSpan_System_Byte__">Read&lt;T&gt;(ReadOnlyExSpan&lt;byte&gt;)</a></dt>
+    <dd><p>Reads a structure of type <code class="typeparamref">T</code> out of a read-only span of bytes (从字节的只读跨度中读取的 <code class="typeparamref">T</code> 类型结构体).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.TryRead.html#Zyl_ExSpans_ExMemoryMarshal_TryRead__1_Zyl_ExSpans_ReadOnlyExSpan_System_Byte____0__">TryRead&lt;T&gt;(ReadOnlyExSpan&lt;byte&gt;, out T)</a></dt>
+    <dd><p>Tries to read a structure of type <code class="typeparamref">T</code> from a read-only span of bytes (尝试从字节的只读跨度中读取 <code class="typeparamref">T</code> 类型结构体).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.TryWrite.html#Zyl_ExSpans_ExMemoryMarshal_TryWrite__1_Zyl_ExSpans_ExSpan_System_Byte____0__">TryWrite&lt;T&gt;(ExSpan&lt;byte&gt;, in T)</a></dt>
+    <dd><p>Tries to write a structure of type <code class="typeparamref">T</code> into a span of bytes (尝试将类型为 <code class="typeparamref">T</code> 的结构体写入到字节的跨度中).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.ExMemoryMarshal.Write.html#Zyl_ExSpans_ExMemoryMarshal_Write__1_Zyl_ExSpans_ExSpan_System_Byte____0__">Write&lt;T&gt;(ExSpan&lt;byte&gt;, in T)</a></dt>
+    <dd><p>Writes a structure of type <code class="typeparamref">T</code> into a span of bytes (将 <code class="typeparamref">T</code> 类型的结构体写入字节跨度内).</p>
+</dd>
+  </dl>
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans.Core/ExMemoryMarshal.Helpers.cs/#L8" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

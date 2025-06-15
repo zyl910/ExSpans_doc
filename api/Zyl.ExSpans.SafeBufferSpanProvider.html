@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Struct SafeBufferSpanProvider | ExSpans </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Struct SafeBufferSpanProvider | ExSpans ">
+      
+      <meta name="description" content="The span provider that manages the pointer acquire for  (管理  指针获取的跨度提供者). For example, it can provide span access for memory mapped files (例如它可以为内存映射文件提供跨度访问器).">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/zyl910/ExSpans/new/main/apiSpec/new?filename=Zyl_ExSpans_SafeBufferSpanProvider.md&amp;value=---%0Auid%3A%20Zyl.ExSpans.SafeBufferSpanProvider%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="ExSpans">
+            ExSpans
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Zyl.ExSpans.SafeBufferSpanProvider">
+
+
+
+  <h1 id="Zyl_ExSpans_SafeBufferSpanProvider" data-uid="Zyl.ExSpans.SafeBufferSpanProvider" class="text-break">
+Struct SafeBufferSpanProvider  <a class="header-action link-secondary" title="View source" href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans.Core/SafeBufferSpanProvider.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Zyl.html">Zyl</a>.<a class="xref" href="Zyl.ExSpans.html">ExSpans</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ExSpans.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The span provider that manages the pointer acquire for <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.safebuffer">SafeBuffer</a> (管理 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.safebuffer">SafeBuffer</a> 指针获取的跨度提供者). For example, it can provide span access for memory mapped files (例如它可以为内存映射文件提供跨度访问器).</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly struct SafeBufferSpanProvider : IDisposable, IExSpanBase&lt;byte&gt;, IReadOnlyExSpanBase&lt;byte&gt;, IExLength</code></pre>
+  </div>
+
+
+
+
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="Zyl.ExSpans.IExSpanBase-1.html">IExSpanBase</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>&gt;</div>
+      <div><a class="xref" href="Zyl.ExSpans.IReadOnlyExSpanBase-1.html">IReadOnlyExSpanBase</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>&gt;</div>
+      <div><a class="xref" href="Zyl.ExSpans.IExLength.html">IExLength</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.equals">ValueType.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode">ValueType.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.tostring">ValueType.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.IsEmpty.html#Zyl_ExSpans_ExSpanExtensions_IsEmpty_Zyl_ExSpans_IExLength_">ExSpanExtensions.IsEmpty(IExLength)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.ItemsAppendStringTo.html#Zyl_ExSpans_ExSpanExtensions_ItemsAppendStringTo__2___1___0__System_Action_System_String__System_Func_System_IntPtr___0_System_String__Zyl_ExSpans_ItemsToStringFlags_Zyl_ExSpans_Reflection_TypeNameFlags_">ExSpanExtensions.ItemsAppendStringTo&lt;T, TSpan&gt;(TSpan, in T, Action&lt;string&gt;, Func&lt;nint, T, string&gt;?, ItemsToStringFlags, TypeNameFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.ItemsAppendStringTo.html#Zyl_ExSpans_ExSpanExtensions_ItemsAppendStringTo__2___1___0__System_Action_System_String__System_IntPtr_System_IntPtr_System_Func_System_IntPtr___0_System_String__Zyl_ExSpans_ItemsToStringFlags_Zyl_ExSpans_Reflection_TypeNameFlags_">ExSpanExtensions.ItemsAppendStringTo&lt;T, TSpan&gt;(TSpan, in T, Action&lt;string&gt;, nint, nint, Func&lt;nint, T, string&gt;?, ItemsToStringFlags, TypeNameFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.ItemsAppendString.html#Zyl_ExSpans_ExSpanExtensions_ItemsAppendString__2___1___0__System_Text_StringBuilder_System_Func_System_IntPtr___0_System_String__Zyl_ExSpans_ItemsToStringFlags_Zyl_ExSpans_Reflection_TypeNameFlags_">ExSpanExtensions.ItemsAppendString&lt;T, TSpan&gt;(TSpan, in T, StringBuilder, Func&lt;nint, T, string&gt;?, ItemsToStringFlags, TypeNameFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.ItemsAppendString.html#Zyl_ExSpans_ExSpanExtensions_ItemsAppendString__2___1___0__System_Text_StringBuilder_System_IntPtr_System_IntPtr_System_Func_System_IntPtr___0_System_String__Zyl_ExSpans_ItemsToStringFlags_Zyl_ExSpans_Reflection_TypeNameFlags_">ExSpanExtensions.ItemsAppendString&lt;T, TSpan&gt;(TSpan, in T, StringBuilder, nint, nint, Func&lt;nint, T, string&gt;?, ItemsToStringFlags, TypeNameFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.ItemsToString.html#Zyl_ExSpans_ExSpanExtensions_ItemsToString__2___1___0__System_Func_System_IntPtr___0_System_String__Zyl_ExSpans_ItemsToStringFlags_Zyl_ExSpans_Reflection_TypeNameFlags_">ExSpanExtensions.ItemsToString&lt;T, TSpan&gt;(TSpan, in T, Func&lt;nint, T, string&gt;?, ItemsToStringFlags, TypeNameFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="Zyl.ExSpans.ExSpanExtensions.ItemsToString.html#Zyl_ExSpans_ExSpanExtensions_ItemsToString__2___1___0__System_IntPtr_System_IntPtr_System_Func_System_IntPtr___0_System_String__Zyl_ExSpans_ItemsToStringFlags_Zyl_ExSpans_Reflection_TypeNameFlags_">ExSpanExtensions.ItemsToString&lt;T, TSpan&gt;(TSpan, in T, nint, nint, Func&lt;nint, T, string&gt;?, ItemsToStringFlags, TypeNameFlags)</a>
+  </div>
+  </dd></dl>
+
+
+
+  <h2 id="Zyl_ExSpans_SafeBufferSpanProvider_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><example>
+For example:
+<pre><code class="lang-csharp">static void TestMemoryMappedFile(TextWriter writer) {
+    try {
+        const string MemoryMappedFilePath = "ExSpans.Sample.tmp";
+        const string? MemoryMappedFileMapName = null; // If it is not null, MacOS will throw an exception. System.PlatformNotSupportedException: Named maps are not supported.
+        const long MemoryMappedFileSize = 1 * 1024 * 1024; // 1MB
+        using MemoryMappedFile mappedFile = MemoryMappedFile.CreateFromFile(MemoryMappedFilePath, FileMode.Create, MemoryMappedFileMapName, MemoryMappedFileSize);
+        using MemoryMappedViewAccessor accessor = mappedFile.CreateViewAccessor();
+        using SafeBufferSpanProvider spanProvider = accessor.SafeMemoryMappedViewHandle.CreateSpanProvider();
+        // Write.
+        ExSpan&lt;int&gt; spanInt = spanProvider.CreateExSpan&lt;int&gt;();
+        spanInt.Fill(0x01020304);
+        spanInt[0] = 0x12345678;
+        // Read.
+        writer.WriteLine(string.Format("Data[0]: {0} // 0x{0:X}", spanInt[0]));
+        writer.WriteLine(string.Format("Data[1]: {0} // 0x{0:X}", spanInt[1]));
+    } catch (Exception ex) {
+        writer.WriteLine(string.Format("Run TestMemoryMappedFile fail! {0}", ex.ToString()));
+    }
+    // Output:
+    // Data[0]: 305419896 // 0x12345678
+    // Data[1]: 16909060 // 0x1020304
+}</code></pre>
+</example>
+</div>
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.SafeBufferSpanProvider.-ctor.html#Zyl_ExSpans_SafeBufferSpanProvider__ctor_System_Runtime_InteropServices_SafeBuffer_">SafeBufferSpanProvider(SafeBuffer)</a></dt>
+    <dd><p>Create SafeBufferSpanProvider (创建 SafeBufferSpanProvider).</p>
+</dd>
+  </dl>
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.SafeBufferSpanProvider.Length.html#Zyl_ExSpans_SafeBufferSpanProvider_Length">Length</a></dt>
+    <dd><p>The number of items in the Ex span (扩展跨度中的项数).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.SafeBufferSpanProvider.Source.html#Zyl_ExSpans_SafeBufferSpanProvider_Source">Source</a></dt>
+    <dd><p>Get source <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.safebuffer">SafeBuffer</a> (取得源 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.safebuffer">SafeBuffer</a>).</p>
+</dd>
+  </dl>
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.SafeBufferSpanProvider.CreateExSpanSaturating.html#Zyl_ExSpans_SafeBufferSpanProvider_CreateExSpanSaturating__1">CreateExSpanSaturating&lt;TTo&gt;()</a></dt>
+    <dd><p>Create a <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> using the specified type with saturating (饱和的使用指定类型来创建 <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a>).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.SafeBufferSpanProvider.CreateExSpan.html#Zyl_ExSpans_SafeBufferSpanProvider_CreateExSpan__1">CreateExSpan&lt;TTo&gt;()</a></dt>
+    <dd><p>Create a <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a> using the specified type (使用指定类型来创建 <a class="xref" href="Zyl.ExSpans.ExSpan-1.html">ExSpan&lt;T&gt;</a>).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.SafeBufferSpanProvider.CreateReadOnlyExSpanSaturating.html#Zyl_ExSpans_SafeBufferSpanProvider_CreateReadOnlyExSpanSaturating__1">CreateReadOnlyExSpanSaturating&lt;TTo&gt;()</a></dt>
+    <dd><p>Create a <a class="xref" href="Zyl.ExSpans.ReadOnlyExSpan-1.html">ReadOnlyExSpan&lt;T&gt;</a> using the specified type with saturating (饱和的使用指定类型来创建 <a class="xref" href="Zyl.ExSpans.ReadOnlyExSpan-1.html">ReadOnlyExSpan&lt;T&gt;</a>).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.SafeBufferSpanProvider.CreateReadOnlyExSpan.html#Zyl_ExSpans_SafeBufferSpanProvider_CreateReadOnlyExSpan__1">CreateReadOnlyExSpan&lt;TTo&gt;()</a></dt>
+    <dd><p>Create a <a class="xref" href="Zyl.ExSpans.ReadOnlyExSpan-1.html">ReadOnlyExSpan&lt;T&gt;</a> using the specified type (使用指定类型来创建 <a class="xref" href="Zyl.ExSpans.ReadOnlyExSpan-1.html">ReadOnlyExSpan&lt;T&gt;</a>).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.SafeBufferSpanProvider.Dispose.html#Zyl_ExSpans_SafeBufferSpanProvider_Dispose">Dispose()</a></dt>
+    <dd><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.SafeBufferSpanProvider.GetPinnableReadOnlyReference.html#Zyl_ExSpans_SafeBufferSpanProvider_GetPinnableReadOnlyReference">GetPinnableReadOnlyReference()</a></dt>
+    <dd><p>Returns a read only reference to the 0th element of the span. If the span is empty, returns null reference.
+It can be used for pinning and is required to support the use of span within a fixed statement (返回对只读跨度的第0个元素的引用。如果跨度为空，则返回null引用. 它可用于固定，并且需要支持在 fixed 语句中使用跨度).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Zyl.ExSpans.SafeBufferSpanProvider.GetPinnableReference.html#Zyl_ExSpans_SafeBufferSpanProvider_GetPinnableReference">GetPinnableReference()</a></dt>
+    <dd><p>Returns a reference to the 0th element of the span. If the span is empty, returns null reference.
+It can be used for pinning and is required to support the use of span within a fixed statement (返回对跨度的第0个元素的引用。如果跨度为空，则返回null引用. 它可用于固定，并且需要支持在 fixed 语句中使用跨度).</p>
+</dd>
+  </dl>
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans.Core/SafeBufferSpanProvider.cs/#L40" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

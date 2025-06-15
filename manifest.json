@@ -35,167 +35,13 @@
       "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.LastIndexOfAnyExceptInRange.html"
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.Sort.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.LastIndexOfAnyExceptInRange",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.LastIndexOfAnyInRange.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.LastIndexOfAnyInRange",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.IndexOfAnyExceptInRange.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.IndexOfAnyExceptInRange",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.IndexOfAnyInRange.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.IndexOfAnyInRange",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.LastIndexOfAnyExcept.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.LastIndexOfAnyExcept",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.IndexOfAnyExcept.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.IndexOfAnyExcept",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.LastIndexOf.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.LastIndexOf",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.IndexOf.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.IndexOf",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.ContainsAnyExcept.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.ContainsAnyExcept",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.SequenceEqual.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.SequenceEqual",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.ContainsAny.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.ContainsAny",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.Contains.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.Contains",
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.Sort",
       "Summary": null
     },
     {
@@ -259,76 +105,6 @@
       "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.StartsWith.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.StartsWith",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.ContainsAnyInRange.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.ContainsAnyInRange",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.LastIndexOfAny.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.LastIndexOfAny",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.SequenceCompareTo.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.SequenceCompareTo",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.Replace.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.Replace",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.html"
         }
       },
@@ -364,6 +140,104 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Zyl.ExSpans.ExMemoryExtensions.TrimStart",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.Replace.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.Replace",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.StartsWith.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.StartsWith",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.IndexOfAny.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.IndexOfAny",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.SequenceCompareTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.SequenceCompareTo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.SequenceEqual.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.SequenceEqual",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.LastIndexOfAnyExceptInRange.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.LastIndexOfAnyExceptInRange",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.ToLower.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.ToLower",
       "Summary": null
     },
     {
@@ -441,139 +315,13 @@
       "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.ToLowerInvariant.html"
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.LastIndexOfAny.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.ToLowerInvariant",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.ToLower.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.ToLower",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.CompareTo.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.CompareTo",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.Equals.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.Equals",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.IsWhiteSpace.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.IsWhiteSpace",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.TryCopyTo.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.TryCopyTo",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.Fill.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.Fill",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.TryWrite.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.TryWrite",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.CountAny.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.CountAny",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.Count.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.Count",
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.LastIndexOfAny",
       "Summary": null
     },
     {
@@ -595,13 +343,13 @@
       "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.Sort.html"
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.LastIndexOfAnyInRange.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.Sort",
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.LastIndexOfAnyInRange",
       "Summary": null
     },
     {
@@ -609,13 +357,83 @@
       "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.IndexOfAny.html"
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.CountAny.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryExtensions.IndexOfAny",
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.CountAny",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.Contains.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.Contains",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.ContainsAny.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.ContainsAny",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.Count.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.Count",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.ContainsAnyExcept.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.ContainsAnyExcept",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.ContainsAnyInRange.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.ContainsAnyInRange",
       "Summary": null
     },
     {
@@ -634,6 +452,230 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.IndexOf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.IndexOf",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.LastIndexOf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.LastIndexOf",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.IndexOfAnyExcept.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.IndexOfAnyExcept",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.LastIndexOfAnyExcept.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.LastIndexOfAnyExcept",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.IndexOfAnyInRange.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.IndexOfAnyInRange",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.IndexOfAnyExceptInRange.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.IndexOfAnyExceptInRange",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.ToLowerInvariant.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.ToLowerInvariant",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.Fill.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.Fill",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.IsWhiteSpace.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.IsWhiteSpace",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.Equals.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.Equals",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.CompareTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.CompareTo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.TryCopyTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.TryCopyTo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryExtensions.TryWrite.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryExtensions.TryWrite",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.Is64BitProcess.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryMarshal.Is64BitProcess",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.GetArrayDataReference.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryMarshal.GetArrayDataReference",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.SpanViewLength.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryMarshal.SpanViewLength",
+      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.ExMemoryMarshal.yml\" sourcestartlinenumber=\"1\">The length of the view span (查看跨度的长度).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.yml",
       "output": {
         ".html": {
@@ -644,6 +686,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Zyl.ExSpans.ExMemoryMarshal.AsBytes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.GetReference.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryMarshal.GetReference",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.Cast.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExMemoryMarshal.Cast",
       "Summary": null
     },
     {
@@ -679,14 +749,14 @@
       "source_relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.CreateReadOnlyExSpanFromNullTerminated.html"
+          "relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.ArrayMaxLengthSafe.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryMarshal.CreateReadOnlyExSpanFromNullTerminated",
-      "Summary": null
+      "Title": "Zyl.ExSpans.ExMemoryMarshal.ArrayMaxLengthSafe",
+      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.ExMemoryMarshal.yml\" sourcestartlinenumber=\"1\">The safe maximum length of array (安全的数组最大长度).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -700,20 +770,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Zyl.ExSpans.ExMemoryMarshal.Read",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.GetArrayDataReference.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryMarshal.GetArrayDataReference",
       "Summary": null
     },
     {
@@ -777,48 +833,6 @@
       "source_relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.ArrayMaxLengthSafe.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryMarshal.ArrayMaxLengthSafe",
-      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.ExMemoryMarshal.yml\" sourcestartlinenumber=\"1\">The safe maximum length of array (安全的数组最大长度).</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.SpanViewLength.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryMarshal.SpanViewLength",
-      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.ExMemoryMarshal.yml\" sourcestartlinenumber=\"1\">The length of the view span (查看跨度的长度).</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.Is64BitProcess.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryMarshal.Is64BitProcess",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.html"
         }
       },
@@ -833,27 +847,13 @@
       "source_relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.Cast.html"
+          "relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.CreateReadOnlyExSpanFromNullTerminated.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryMarshal.Cast",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExMemoryMarshal.GetReference.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExMemoryMarshal.GetReference",
+      "Title": "Zyl.ExSpans.ExMemoryMarshal.CreateReadOnlyExSpanFromNullTerminated",
       "Summary": null
     },
     {
@@ -861,70 +861,14 @@
       "source_relative_path": "api/Zyl.ExSpans.ExNativeMemory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExNativeMemory.Alloc.html"
+          "relative_path": "api/Zyl.ExSpans.ExNativeMemory.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExNativeMemory.Alloc",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExNativeMemory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExNativeMemory.Clear.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExNativeMemory.Clear",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExNativeMemory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExNativeMemory.Copy.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExNativeMemory.Copy",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExNativeMemory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExNativeMemory.Fill.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExNativeMemory.Fill",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExNativeMemory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExNativeMemory.Free.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExNativeMemory.Free",
-      "Summary": null
+      "Title": "Zyl.ExSpans.ExNativeMemory",
+      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.ExNativeMemory.yml\" sourcestartlinenumber=\"1\">This class contains methods that are mainly used to manage native memory. It can enable early versions NET can also use the method of <xref href=\"System.Runtime.InteropServices.NativeMemory\" data-throw-if-not-resolved=\"false\"></xref>, which will revert back to the implementation of <xref href=\"System.Runtime.InteropServices.Marshal.AllocHGlobal(System.IntPtr)\" data-throw-if-not-resolved=\"false\"></xref> (此类包含了主要用于管理本机内存的方法. 它能使早期版本的 .NET 也能使用 <xref href=\"System.Runtime.InteropServices.NativeMemory\" data-throw-if-not-resolved=\"false\"></xref> 的方法, 此时会回退为 <xref href=\"System.Runtime.InteropServices.Marshal.AllocHGlobal(System.IntPtr)\" data-throw-if-not-resolved=\"false\"></xref> 的实现).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -959,14 +903,70 @@
       "source_relative_path": "api/Zyl.ExSpans.ExNativeMemory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExNativeMemory.html"
+          "relative_path": "api/Zyl.ExSpans.ExNativeMemory.Alloc.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExNativeMemory",
-      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.ExNativeMemory.yml\" sourcestartlinenumber=\"1\">This class contains methods that are mainly used to manage native memory. It can enable early versions NET can also use the method of <xref href=\"System.Runtime.InteropServices.NativeMemory\" data-throw-if-not-resolved=\"false\"></xref>, which will revert back to the implementation of <xref href=\"System.Runtime.InteropServices.Marshal.AllocHGlobal(System.IntPtr)\" data-throw-if-not-resolved=\"false\"></xref> (此类包含了主要用于管理本机内存的方法. 它能使早期版本的 .NET 也能使用 <xref href=\"System.Runtime.InteropServices.NativeMemory\" data-throw-if-not-resolved=\"false\"></xref> 的方法, 此时会回退为 <xref href=\"System.Runtime.InteropServices.Marshal.AllocHGlobal(System.IntPtr)\" data-throw-if-not-resolved=\"false\"></xref> 的实现).</p>\n"
+      "Title": "Zyl.ExSpans.ExNativeMemory.Alloc",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExNativeMemory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExNativeMemory.Free.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExNativeMemory.Free",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExNativeMemory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExNativeMemory.Fill.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExNativeMemory.Fill",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExNativeMemory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExNativeMemory.Clear.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExNativeMemory.Clear",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExNativeMemory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExNativeMemory.Copy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExNativeMemory.Copy",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1015,13 +1015,167 @@
       "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpan-1.Length.html"
+          "relative_path": "api/Zyl.ExSpans.ExSpan-1.op_Inequality.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpan<T>.Length",
+      "Title": "Zyl.ExSpans.ExSpan<T>.operator !=",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpan-1.op_Implicit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpan<T>.implicit operator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpan-1.Empty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpan<T>.Empty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpan-1.GetEnumerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpan<T>.GetEnumerator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpan-1.TryCopyTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpan<T>.TryCopyTo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpan-1.CopyTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpan<T>.CopyTo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpan-1.op_Equality.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpan<T>.operator ==",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpan-1.Clear.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpan<T>.Clear",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpan-1.Slice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpan<T>.Slice",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpan-1.Item.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpan<T>.this",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpan-1.-ctor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpan<T>.ExSpan",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpan-1.IsEmpty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpan<T>.IsEmpty",
       "Summary": null
     },
     {
@@ -1071,34 +1225,6 @@
       "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpan-1.-ctor.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpan<T>.ExSpan",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpan-1.Slice.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpan<T>.Slice",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Zyl.ExSpans.ExSpan-1.html"
         }
       },
@@ -1107,146 +1233,6 @@
       "IsMRef": true,
       "Title": "Zyl.ExSpans.ExSpan<T>",
       "Summary": "<p sourcefile=\"api/Zyl.ExSpans.ExSpan-1.yml\" sourcestartlinenumber=\"1\">Provides a type-safe and memory-safe representation of a contiguous region of arbitrary memory. It can be regarded as the <xref href=\"System.Span%601\" data-throw-if-not-resolved=\"false\"></xref> of <xref href=\"System.IntPtr\" data-throw-if-not-resolved=\"false\"></xref> index range (提供任意内存的连续区域的类型安全和内存安全表示形式. 它可以被视为 <xref href=\"System.IntPtr\" data-throw-if-not-resolved=\"false\"></xref> 索引范围的 <xref href=\"System.Span%601\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpan-1.Item.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpan<T>.this",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpan-1.op_Equality.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpan<T>.operator ==",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpan-1.TryCopyTo.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpan<T>.TryCopyTo",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpan-1.CopyTo.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpan<T>.CopyTo",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpan-1.Clear.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpan<T>.Clear",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpan-1.GetEnumerator.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpan<T>.GetEnumerator",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpan-1.Empty.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpan<T>.Empty",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpan-1.op_Implicit.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpan<T>.implicit operator",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpan-1.op_Inequality.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpan<T>.operator !=",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpan-1.IsEmpty.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpan<T>.IsEmpty",
-      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1264,100 +1250,16 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpanExtensions.yml",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpan-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpanExtensions.html"
+          "relative_path": "api/Zyl.ExSpans.ExSpan-1.Length.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpanExtensions",
-      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.ExSpanExtensions.yml\" sourcestartlinenumber=\"1\">Provides commonly used extension methods for the span-related types, such as <xref href=\"Zyl.ExSpans.ExSpan%601\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Zyl.ExSpans.ReadOnlyExSpan%601\" data-throw-if-not-resolved=\"false\"></xref> (提供跨度相关的类型的常用的扩展方法，例如 <xref href=\"Zyl.ExSpans.ExSpan%601\" data-throw-if-not-resolved=\"false\"></xref> 和 <xref href=\"Zyl.ExSpans.ReadOnlyExSpan%601\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpanExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpanExtensions.LastAsReadOnlySpan.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpanExtensions.LastAsReadOnlySpan",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpanExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpanExtensions.LastAsSpan.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpanExtensions.LastAsSpan",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpanExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpanExtensions.ItemsToString.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpanExtensions.ItemsToString",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpanExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpanExtensions.IsEmpty.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpanExtensions.IsEmpty",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpanExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpanExtensions.ItemsAppendString.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpanExtensions.ItemsAppendString",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ExSpanExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ExSpanExtensions.AsSpan.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ExSpanExtensions.AsSpan",
+      "Title": "Zyl.ExSpans.ExSpan<T>.Length",
       "Summary": null
     },
     {
@@ -1379,6 +1281,62 @@
       "source_relative_path": "api/Zyl.ExSpans.ExSpanExtensions.yml",
       "output": {
         ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpanExtensions.LastAsSpan.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpanExtensions.LastAsSpan",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpanExtensions.AsSpan.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpanExtensions.AsSpan",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpanExtensions.LastAsReadOnlySpan.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpanExtensions.LastAsReadOnlySpan",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpanExtensions.ItemsToString.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpanExtensions.ItemsToString",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpanExtensions.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/Zyl.ExSpans.ExSpanExtensions.ItemsAppendStringTo.html"
         }
       },
@@ -1386,6 +1344,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Zyl.ExSpans.ExSpanExtensions.ItemsAppendStringTo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpanExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpanExtensions",
+      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.ExSpanExtensions.yml\" sourcestartlinenumber=\"1\">Provides commonly used extension methods for the span-related types, such as <xref href=\"Zyl.ExSpans.ExSpan%601\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Zyl.ExSpans.ReadOnlyExSpan%601\" data-throw-if-not-resolved=\"false\"></xref> (提供跨度相关的类型的常用的扩展方法，例如 <xref href=\"Zyl.ExSpans.ExSpan%601\" data-throw-if-not-resolved=\"false\"></xref> 和 <xref href=\"Zyl.ExSpans.ReadOnlyExSpan%601\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpanExtensions.IsEmpty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpanExtensions.IsEmpty",
       "Summary": null
     },
     {
@@ -1432,6 +1418,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ExSpanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ExSpanExtensions.ItemsAppendString.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ExSpanExtensions.ItemsAppendString",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Zyl.ExSpans.Exceptions.ExSpanAbstractException.yml",
       "output": {
         ".html": {
@@ -1463,6 +1463,34 @@
       "source_relative_path": "api/Zyl.ExSpans.Exceptions.ExSpanTooLongException.yml",
       "output": {
         ".html": {
+          "relative_path": "api/Zyl.ExSpans.Exceptions.ExSpanTooLongException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Exceptions.ExSpanTooLongException",
+      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Exceptions.ExSpanTooLongException.yml\" sourcestartlinenumber=\"1\">ExSpan length too long exception (扩展跨度长度太长的异常)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Exceptions.ExSpanTooLongException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Exceptions.ExSpanTooLongException.ThrowIfOutInt32.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Exceptions.ExSpanTooLongException.ThrowIfOutInt32",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Exceptions.ExSpanTooLongException.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/Zyl.ExSpans.Exceptions.ExSpanTooLongException.-ctor.html"
         }
       },
@@ -1488,34 +1516,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Exceptions.ExSpanTooLongException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Exceptions.ExSpanTooLongException.ThrowIfOutInt32.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Exceptions.ExSpanTooLongException.ThrowIfOutInt32",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Exceptions.ExSpanTooLongException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Exceptions.ExSpanTooLongException.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Exceptions.ExSpanTooLongException",
-      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Exceptions.ExSpanTooLongException.yml\" sourcestartlinenumber=\"1\">ExSpan length too long exception (扩展跨度长度太长的异常)</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Zyl.ExSpans.Exceptions.yml",
       "output": {
         ".html": {
@@ -1526,20 +1526,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Zyl.ExSpans.Exceptions",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Extensions.ApplySpans.ApplySpanCoreExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Extensions.ApplySpans.ApplySpanCoreExtensions.ItemsAppendStringTo.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Extensions.ApplySpans.ApplySpanCoreExtensions.ItemsAppendStringTo",
       "Summary": null
     },
     {
@@ -1561,14 +1547,14 @@
       "source_relative_path": "api/Zyl.ExSpans.Extensions.ApplySpans.ApplySpanCoreExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Extensions.ApplySpans.ApplySpanCoreExtensions.html"
+          "relative_path": "api/Zyl.ExSpans.Extensions.ApplySpans.ApplySpanCoreExtensions.ItemsAppendStringTo.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Extensions.ApplySpans.ApplySpanCoreExtensions",
-      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Extensions.ApplySpans.ApplySpanCoreExtensions.yml\" sourcestartlinenumber=\"1\">Provides commonly used extension methods for the span-related types, such as <xref href=\"System.Span%601\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"System.ReadOnlySpan%601\" data-throw-if-not-resolved=\"false\"></xref> (提供跨度相关的类型的常用的扩展方法，例如 <xref href=\"System.Span%601\" data-throw-if-not-resolved=\"false\"></xref> 和 <xref href=\"System.ReadOnlySpan%601\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n"
+      "Title": "Zyl.ExSpans.Extensions.ApplySpans.ApplySpanCoreExtensions.ItemsAppendStringTo",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1583,6 +1569,20 @@
       "IsMRef": true,
       "Title": "Zyl.ExSpans.Extensions.ApplySpans.ApplySpanCoreExtensions.ItemsToString",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Extensions.ApplySpans.ApplySpanCoreExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Extensions.ApplySpans.ApplySpanCoreExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Extensions.ApplySpans.ApplySpanCoreExtensions",
+      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Extensions.ApplySpans.ApplySpanCoreExtensions.yml\" sourcestartlinenumber=\"1\">Provides commonly used extension methods for the span-related types, such as <xref href=\"System.Span%601\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"System.ReadOnlySpan%601\" data-throw-if-not-resolved=\"false\"></xref> (提供跨度相关的类型的常用的扩展方法，例如 <xref href=\"System.Span%601\" data-throw-if-not-resolved=\"false\"></xref> 和 <xref href=\"System.ReadOnlySpan%601\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1603,20 +1603,6 @@
       "source_relative_path": "api/Zyl.ExSpans.Extensions.ExLengthExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Extensions.ExLengthExtensions.ExLength.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Extensions.ExLengthExtensions.ExLength",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Extensions.ExLengthExtensions.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Zyl.ExSpans.Extensions.ExLengthExtensions.html"
         }
       },
@@ -1628,17 +1614,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Extensions.IntPtrExtensions.yml",
+      "source_relative_path": "api/Zyl.ExSpans.Extensions.ExLengthExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Extensions.IntPtrExtensions.IntPtrMaxValue.html"
+          "relative_path": "api/Zyl.ExSpans.Extensions.ExLengthExtensions.ExLength.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Extensions.IntPtrExtensions.IntPtrMaxValue",
-      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Extensions.IntPtrExtensions.yml\" sourcestartlinenumber=\"1\">Represents the largest possible value of <xref href=\"System.IntPtr\" data-throw-if-not-resolved=\"false\"></xref> (表示 <xref href=\"System.IntPtr\" data-throw-if-not-resolved=\"false\"></xref> 的最大可能值).</p>\n"
+      "Title": "Zyl.ExSpans.Extensions.ExLengthExtensions.ExLength",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1659,28 +1645,14 @@
       "source_relative_path": "api/Zyl.ExSpans.Extensions.IntPtrExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Extensions.IntPtrExtensions.IsByteLengthInInt32.html"
+          "relative_path": "api/Zyl.ExSpans.Extensions.IntPtrExtensions.IntPtrMaxValue.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Extensions.IntPtrExtensions.IsByteLengthInInt32",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Extensions.IntPtrExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Extensions.IntPtrExtensions.IsLengthInInt32.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Extensions.IntPtrExtensions.IsLengthInInt32",
-      "Summary": null
+      "Title": "Zyl.ExSpans.Extensions.IntPtrExtensions.IntPtrMaxValue",
+      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Extensions.IntPtrExtensions.yml\" sourcestartlinenumber=\"1\">Represents the largest possible value of <xref href=\"System.IntPtr\" data-throw-if-not-resolved=\"false\"></xref> (表示 <xref href=\"System.IntPtr\" data-throw-if-not-resolved=\"false\"></xref> 的最大可能值).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1695,6 +1667,20 @@
       "IsMRef": true,
       "Title": "Zyl.ExSpans.Extensions.IntPtrExtensions.SaturatingToInt32",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Extensions.IntPtrExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Extensions.IntPtrExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Extensions.IntPtrExtensions",
+      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Extensions.IntPtrExtensions.yml\" sourcestartlinenumber=\"1\">Extensions of <xref href=\"System.IntPtr\" data-throw-if-not-resolved=\"false\"></xref> types (<xref href=\"System.IntPtr\" data-throw-if-not-resolved=\"false\"></xref> 类型的扩展)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1771,14 +1757,28 @@
       "source_relative_path": "api/Zyl.ExSpans.Extensions.IntPtrExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Extensions.IntPtrExtensions.html"
+          "relative_path": "api/Zyl.ExSpans.Extensions.IntPtrExtensions.IsLengthInInt32.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Extensions.IntPtrExtensions",
-      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Extensions.IntPtrExtensions.yml\" sourcestartlinenumber=\"1\">Extensions of <xref href=\"System.IntPtr\" data-throw-if-not-resolved=\"false\"></xref> types (<xref href=\"System.IntPtr\" data-throw-if-not-resolved=\"false\"></xref> 类型的扩展)</p>\n"
+      "Title": "Zyl.ExSpans.Extensions.IntPtrExtensions.IsLengthInInt32",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Extensions.IntPtrExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Extensions.IntPtrExtensions.IsByteLengthInInt32.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Extensions.IntPtrExtensions.IsByteLengthInInt32",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1799,20 +1799,6 @@
       "source_relative_path": "api/Zyl.ExSpans.IExLength.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.IExLength.Length.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.IExLength.Length",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.IExLength.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Zyl.ExSpans.IExLength.html"
         }
       },
@@ -1821,6 +1807,20 @@
       "IsMRef": true,
       "Title": "Zyl.ExSpans.IExLength",
       "Summary": "<p sourcefile=\"api/Zyl.ExSpans.IExLength.yml\" sourcestartlinenumber=\"1\">The interface of Ex length (扩展长度的接口).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.IExLength.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.IExLength.Length.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.IExLength.Length",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1855,6 +1855,20 @@
       "source_relative_path": "api/Zyl.ExSpans.IReadOnlyExSpanBase-1.yml",
       "output": {
         ".html": {
+          "relative_path": "api/Zyl.ExSpans.IReadOnlyExSpanBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.IReadOnlyExSpanBase<T>",
+      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.IReadOnlyExSpanBase-1.yml\" sourcestartlinenumber=\"1\">The base interface of read only Ex span (只读扩展跨度的基本接口).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.IReadOnlyExSpanBase-1.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/Zyl.ExSpans.IReadOnlyExSpanBase-1.GetPinnableReadOnlyReference.html"
         }
       },
@@ -1866,17 +1880,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.IReadOnlyExSpanBase-1.yml",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.ArrayHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.IReadOnlyExSpanBase-1.html"
+          "relative_path": "api/Zyl.ExSpans.Impl.ArrayHelper.Empty.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.IReadOnlyExSpanBase<T>",
-      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.IReadOnlyExSpanBase-1.yml\" sourcestartlinenumber=\"1\">The base interface of read only Ex span (只读扩展跨度的基本接口).</p>\n"
+      "Title": "Zyl.ExSpans.Impl.ArrayHelper.Empty",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1908,20 +1922,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.ArrayHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.ArrayHelper.Empty.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.ArrayHelper.Empty",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Zyl.ExSpans.Impl.BitOperationsHelper.yml",
       "output": {
         ".html": {
@@ -1939,6 +1939,20 @@
       "source_relative_path": "api/Zyl.ExSpans.Impl.BitOperationsHelper.yml",
       "output": {
         ".html": {
+          "relative_path": "api/Zyl.ExSpans.Impl.BitOperationsHelper.ResetLowestSetBit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Impl.BitOperationsHelper.ResetLowestSetBit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.BitOperationsHelper.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/Zyl.ExSpans.Impl.BitOperationsHelper.FlipBit.html"
         }
       },
@@ -1950,16 +1964,16 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.BitOperationsHelper.yml",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.BufferHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.BitOperationsHelper.ResetLowestSetBit.html"
+          "relative_path": "api/Zyl.ExSpans.Impl.BufferHelper.MemoryCopy.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.BitOperationsHelper.ResetLowestSetBit",
+      "Title": "Zyl.ExSpans.Impl.BufferHelper.MemoryCopy",
       "Summary": null
     },
     {
@@ -1992,62 +2006,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.BufferHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.BufferHelper.MemoryCopy.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.BufferHelper.MemoryCopy",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.CompositeFormatHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.CompositeFormatHelper.GetFormattedCount.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.CompositeFormatHelper.GetFormattedCount",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.CompositeFormatHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.CompositeFormatHelper.GetLiteralLength.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.CompositeFormatHelper.GetLiteralLength",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.CompositeFormatHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.CompositeFormatHelper.GetSegments.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.CompositeFormatHelper.GetSegments",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Zyl.ExSpans.Impl.CompositeFormatHelper.yml",
       "output": {
         ".html": {
@@ -2076,16 +2034,44 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.DebugHelper.yml",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.CompositeFormatHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.DebugHelper.Fail.html"
+          "relative_path": "api/Zyl.ExSpans.Impl.CompositeFormatHelper.GetSegments.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.DebugHelper.Fail",
+      "Title": "Zyl.ExSpans.Impl.CompositeFormatHelper.GetSegments",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.CompositeFormatHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Impl.CompositeFormatHelper.GetLiteralLength.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Impl.CompositeFormatHelper.GetLiteralLength",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.CompositeFormatHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Impl.CompositeFormatHelper.GetFormattedCount.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Impl.CompositeFormatHelper.GetFormattedCount",
       "Summary": null
     },
     {
@@ -2104,17 +2090,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.EnumHelper.yml",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.DebugHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.EnumHelper.html"
+          "relative_path": "api/Zyl.ExSpans.Impl.DebugHelper.Fail.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.EnumHelper",
-      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Impl.EnumHelper.yml\" sourcestartlinenumber=\"1\"><xref href=\"System.Enum\" data-throw-if-not-resolved=\"false\"></xref> Helper.</p>\n"
+      "Title": "Zyl.ExSpans.Impl.DebugHelper.Fail",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2132,44 +2118,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.yml",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.EnumHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.GetByteSize.html"
+          "relative_path": "api/Zyl.ExSpans.Impl.EnumHelper.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.ExUnsafe.GetByteSize",
-      "Summary": null
+      "Title": "Zyl.ExSpans.Impl.EnumHelper",
+      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Impl.EnumHelper.yml\" sourcestartlinenumber=\"1\"><xref href=\"System.Enum\" data-throw-if-not-resolved=\"false\"></xref> Helper.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.BitCast.html"
+          "relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.Add.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.ExUnsafe.BitCast",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.AddPointer.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.ExUnsafe.AddPointer",
+      "Title": "Zyl.ExSpans.Impl.ExUnsafe.Add",
       "Summary": null
     },
     {
@@ -2191,6 +2163,20 @@
       "source_relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.yml",
       "output": {
         ".html": {
+          "relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.AddAsRef.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Impl.ExUnsafe.AddAsRef",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.AddByteOffset.html"
         }
       },
@@ -2205,13 +2191,27 @@
       "source_relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.Add.html"
+          "relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.BitCast.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.ExUnsafe.Add",
+      "Title": "Zyl.ExSpans.Impl.ExUnsafe.BitCast",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.GetByteSize.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Impl.ExUnsafe.GetByteSize",
       "Summary": null
     },
     {
@@ -2233,13 +2233,13 @@
       "source_relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.AddAsRef.html"
+          "relative_path": "api/Zyl.ExSpans.Impl.ExUnsafe.AddPointer.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.ExUnsafe.AddAsRef",
+      "Title": "Zyl.ExSpans.Impl.ExUnsafe.AddPointer",
       "Summary": null
     },
     {
@@ -2261,20 +2261,6 @@
       "source_relative_path": "api/Zyl.ExSpans.Impl.FakeCLSCompliantAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.FakeCLSCompliantAttribute.IsCompliant.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.FakeCLSCompliantAttribute.IsCompliant",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.FakeCLSCompliantAttribute.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Zyl.ExSpans.Impl.FakeCLSCompliantAttribute.html"
         }
       },
@@ -2283,6 +2269,20 @@
       "IsMRef": true,
       "Title": "Zyl.ExSpans.Impl.FakeCLSCompliantAttribute",
       "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Impl.FakeCLSCompliantAttribute.yml\" sourcestartlinenumber=\"1\">Fake - Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.FakeCLSCompliantAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Impl.FakeCLSCompliantAttribute.IsCompliant.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Impl.FakeCLSCompliantAttribute.IsCompliant",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2303,13 +2303,27 @@
       "source_relative_path": "api/Zyl.ExSpans.Impl.MemoryMarshalHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.MemoryMarshalHelper.GetSpanSaturatingLength.html"
+          "relative_path": "api/Zyl.ExSpans.Impl.MemoryMarshalHelper.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.MemoryMarshalHelper.GetSpanSaturatingLength",
+      "Title": "Zyl.ExSpans.Impl.MemoryMarshalHelper",
+      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Impl.MemoryMarshalHelper.yml\" sourcestartlinenumber=\"1\"><xref href=\"System.Runtime.InteropServices.MemoryMarshal\" data-throw-if-not-resolved=\"false\"></xref> helper.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.MemoryMarshalHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Impl.MemoryMarshalHelper.CreateSpanSaturating.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Impl.MemoryMarshalHelper.CreateSpanSaturating",
       "Summary": null
     },
     {
@@ -2331,28 +2345,28 @@
       "source_relative_path": "api/Zyl.ExSpans.Impl.MemoryMarshalHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.MemoryMarshalHelper.CreateSpanSaturating.html"
+          "relative_path": "api/Zyl.ExSpans.Impl.MemoryMarshalHelper.GetSpanSaturatingLength.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.MemoryMarshalHelper.CreateSpanSaturating",
+      "Title": "Zyl.ExSpans.Impl.MemoryMarshalHelper.GetSpanSaturatingLength",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.MemoryMarshalHelper.yml",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.StringHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.MemoryMarshalHelper.html"
+          "relative_path": "api/Zyl.ExSpans.Impl.StringHelper.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.MemoryMarshalHelper",
-      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Impl.MemoryMarshalHelper.yml\" sourcestartlinenumber=\"1\"><xref href=\"System.Runtime.InteropServices.MemoryMarshal\" data-throw-if-not-resolved=\"false\"></xref> helper.</p>\n"
+      "Title": "Zyl.ExSpans.Impl.StringHelper",
+      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Impl.StringHelper.yml\" sourcestartlinenumber=\"1\"><xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> Helper.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2384,17 +2398,45 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.StringHelper.yml",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.Vector128Helper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.StringHelper.html"
+          "relative_path": "api/Zyl.ExSpans.Impl.Vector128Helper.EqualsAll.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.StringHelper",
-      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Impl.StringHelper.yml\" sourcestartlinenumber=\"1\"><xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> Helper.</p>\n"
+      "Title": "Zyl.ExSpans.Impl.Vector128Helper.EqualsAll",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.Vector128Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Impl.Vector128Helper.EqualsAny.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Impl.Vector128Helper.EqualsAny",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.Vector128Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Impl.Vector128Helper.ExtractMostSignificantBits.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Impl.Vector128Helper.ExtractMostSignificantBits",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2415,13 +2457,13 @@
       "source_relative_path": "api/Zyl.ExSpans.Impl.Vector128Helper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.Vector128Helper.EqualsAny.html"
+          "relative_path": "api/Zyl.ExSpans.Impl.Vector128Helper.LastIndexOfWhereAllBitsSet.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.Vector128Helper.EqualsAny",
+      "Title": "Zyl.ExSpans.Impl.Vector128Helper.LastIndexOfWhereAllBitsSet",
       "Summary": null
     },
     {
@@ -2451,90 +2493,6 @@
       "IsMRef": true,
       "Title": "Zyl.ExSpans.Impl.Vector128Helper",
       "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Impl.Vector128Helper.yml\" sourcestartlinenumber=\"1\"><xref href=\"System.Runtime.Intrinsics.Vector128\" data-throw-if-not-resolved=\"false\"></xref> Helper.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.Vector128Helper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.Vector128Helper.LastIndexOfWhereAllBitsSet.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.Vector128Helper.LastIndexOfWhereAllBitsSet",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.Vector128Helper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.Vector128Helper.ExtractMostSignificantBits.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.Vector128Helper.ExtractMostSignificantBits",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.Vector128Helper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.Vector128Helper.EqualsAll.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.Vector128Helper.EqualsAll",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.Vector256Helper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.Vector256Helper.EqualsAll.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.Vector256Helper.EqualsAll",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.Vector256Helper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.Vector256Helper.EqualsAny.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.Vector256Helper.EqualsAny",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.Vector256Helper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.Vector256Helper.ExtractMostSignificantBits.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.Vector256Helper.ExtractMostSignificantBits",
-      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2569,14 +2527,28 @@
       "source_relative_path": "api/Zyl.ExSpans.Impl.Vector256Helper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.Vector256Helper.html"
+          "relative_path": "api/Zyl.ExSpans.Impl.Vector256Helper.EqualsAny.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.Vector256Helper",
-      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Impl.Vector256Helper.yml\" sourcestartlinenumber=\"1\"><xref href=\"System.Runtime.Intrinsics.Vector256\" data-throw-if-not-resolved=\"false\"></xref> Helper.</p>\n"
+      "Title": "Zyl.ExSpans.Impl.Vector256Helper.EqualsAny",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.Vector256Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Impl.Vector256Helper.EqualsAll.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Impl.Vector256Helper.EqualsAll",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2594,16 +2566,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.Vector512Helper.yml",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.Vector256Helper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.Vector512Helper.LastIndexOfWhereAllBitsSet.html"
+          "relative_path": "api/Zyl.ExSpans.Impl.Vector256Helper.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.Vector512Helper.LastIndexOfWhereAllBitsSet",
+      "Title": "Zyl.ExSpans.Impl.Vector256Helper",
+      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Impl.Vector256Helper.yml\" sourcestartlinenumber=\"1\"><xref href=\"System.Runtime.Intrinsics.Vector256\" data-throw-if-not-resolved=\"false\"></xref> Helper.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.Vector256Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Impl.Vector256Helper.ExtractMostSignificantBits.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Impl.Vector256Helper.ExtractMostSignificantBits",
       "Summary": null
     },
     {
@@ -2618,6 +2604,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Zyl.ExSpans.Impl.Vector512Helper.LastIndexOf",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.Vector512Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Impl.Vector512Helper.LastIndexOfWhereAllBitsSet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Impl.Vector512Helper.LastIndexOfWhereAllBitsSet",
       "Summary": null
     },
     {
@@ -2667,14 +2667,14 @@
       "source_relative_path": "api/Zyl.ExSpans.Impl.VectorHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.VectorHelper.html"
+          "relative_path": "api/Zyl.ExSpans.Impl.VectorHelper.LastIndexOfWhereAllBitsSet.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.VectorHelper",
-      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Impl.VectorHelper.yml\" sourcestartlinenumber=\"1\"><xref href=\"System.Numerics.Vector\" data-throw-if-not-resolved=\"false\"></xref> Helper.</p>\n"
+      "Title": "Zyl.ExSpans.Impl.VectorHelper.LastIndexOfWhereAllBitsSet",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2695,6 +2695,20 @@
       "source_relative_path": "api/Zyl.ExSpans.Impl.VectorHelper.yml",
       "output": {
         ".html": {
+          "relative_path": "api/Zyl.ExSpans.Impl.VectorHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Impl.VectorHelper",
+      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Impl.VectorHelper.yml\" sourcestartlinenumber=\"1\"><xref href=\"System.Numerics.Vector\" data-throw-if-not-resolved=\"false\"></xref> Helper.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Impl.VectorHelper.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/Zyl.ExSpans.Impl.VectorHelper.LoadUnsafe.html"
         }
       },
@@ -2702,20 +2716,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Zyl.ExSpans.Impl.VectorHelper.LoadUnsafe",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Impl.VectorHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Impl.VectorHelper.LastIndexOfWhereAllBitsSet.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Impl.VectorHelper.LastIndexOfWhereAllBitsSet",
       "Summary": null
     },
     {
@@ -2737,20 +2737,6 @@
       "source_relative_path": "api/Zyl.ExSpans.ItemFormaters.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ItemFormaters.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ItemFormaters",
-      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.ItemFormaters.yml\" sourcestartlinenumber=\"1\">The formaters of each item (各项的格式化器集).</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ItemFormaters.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Zyl.ExSpans.ItemFormaters.Default.html"
         }
       },
@@ -2759,6 +2745,20 @@
       "IsMRef": true,
       "Title": "Zyl.ExSpans.ItemFormaters.Default",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ItemFormaters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ItemFormaters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ItemFormaters",
+      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.ItemFormaters.yml\" sourcestartlinenumber=\"1\">The formaters of each item (各项的格式化器集).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2821,14 +2821,14 @@
       "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.Enumerator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.Enumerator.MoveNext.html"
+          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.Enumerator.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.Enumerator.MoveNext",
-      "Summary": null
+      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.Enumerator",
+      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.ReadOnlyExSpan-1.Enumerator.yml\" sourcestartlinenumber=\"1\">Enumerates the elements of a <xref href=\"Zyl.ExSpans.ReadOnlyExSpan%601\" data-throw-if-not-resolved=\"false\"></xref> (为 <xref href=\"Zyl.ExSpans.ReadOnlyExSpan%601\" data-throw-if-not-resolved=\"false\"></xref> 的元素提供枚举器).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2849,139 +2849,13 @@
       "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.Enumerator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.Enumerator.html"
+          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.Enumerator.MoveNext.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.Enumerator",
-      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.ReadOnlyExSpan-1.Enumerator.yml\" sourcestartlinenumber=\"1\">Enumerates the elements of a <xref href=\"Zyl.ExSpans.ReadOnlyExSpan%601\" data-throw-if-not-resolved=\"false\"></xref> (为 <xref href=\"Zyl.ExSpans.ReadOnlyExSpan%601\" data-throw-if-not-resolved=\"false\"></xref> 的元素提供枚举器).</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.-ctor.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.ReadOnlyExSpan",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.Item.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.this",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.Length.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.Length",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.IsEmpty.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.IsEmpty",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.op_Inequality.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.operator !=",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.Empty.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.Empty",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.op_Implicit.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.implicit operator",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.GetEnumerator.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.GetEnumerator",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.CastUp.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.CastUp",
+      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.Enumerator.MoveNext",
       "Summary": null
     },
     {
@@ -3003,20 +2877,6 @@
       "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.op_Explicit.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.explicit operator",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.ToArray.html"
         }
       },
@@ -3031,13 +2891,13 @@
       "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.LastSlice.html"
+          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.op_Explicit.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.LastSlice",
+      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.explicit operator",
       "Summary": null
     },
     {
@@ -3045,13 +2905,13 @@
       "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.ToString.html"
+          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.LastSlice.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.ToString",
+      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.LastSlice",
       "Summary": null
     },
     {
@@ -3101,6 +2961,118 @@
       "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
       "output": {
         ".html": {
+          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.GetEnumerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.GetEnumerator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.CastUp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.CastUp",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.Empty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.Empty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.ToString.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.ToString",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.op_Inequality.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.operator !=",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.IsEmpty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.IsEmpty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.Length.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.Length",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.Item.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.this",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.Slice.html"
         }
       },
@@ -3112,86 +3084,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.yml",
+      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.IsValueType.html"
+          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.-ctor.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Reflection.TypeHelper.IsValueType",
+      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.ReadOnlyExSpan",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.yml",
+      "source_relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.IsBitwiseEquatable.html"
+          "relative_path": "api/Zyl.ExSpans.ReadOnlyExSpan-1.op_Implicit.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Reflection.TypeHelper.IsBitwiseEquatable",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.IsEnum.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Reflection.TypeHelper.IsEnum",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.IsGenericType.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Reflection.TypeHelper.IsGenericType",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.IsPrimitive.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Reflection.TypeHelper.IsPrimitive",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.IsReferenceOrContainsReferences.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Reflection.TypeHelper.IsReferenceOrContainsReferences",
+      "Title": "Zyl.ExSpans.ReadOnlyExSpan<T>.implicit operator",
       "Summary": null
     },
     {
@@ -3213,6 +3129,76 @@
       "source_relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.yml",
       "output": {
         ".html": {
+          "relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.IsValueType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Reflection.TypeHelper.IsValueType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.IsReferenceOrContainsReferences.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Reflection.TypeHelper.IsReferenceOrContainsReferences",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.IsPrimitive.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Reflection.TypeHelper.IsPrimitive",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.IsEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Reflection.TypeHelper.IsEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.IsBitwiseEquatable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Reflection.TypeHelper.IsBitwiseEquatable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.IsBlittable.html"
         }
       },
@@ -3220,6 +3206,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Zyl.ExSpans.Reflection.TypeHelper.IsBlittable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.GetFullBaseName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Reflection.TypeHelper.GetFullBaseName",
       "Summary": null
     },
     {
@@ -3241,13 +3241,13 @@
       "source_relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.GetFullBaseName.html"
+          "relative_path": "api/Zyl.ExSpans.Reflection.TypeHelper.IsGenericType.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Reflection.TypeHelper.GetFullBaseName",
+      "Title": "Zyl.ExSpans.Reflection.TypeHelper.IsGenericType",
       "Summary": null
     },
     {
@@ -3311,20 +3311,6 @@
       "source_relative_path": "api/Zyl.ExSpans.Reflection.TypeNameUtil.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Reflection.TypeNameUtil.GetName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Reflection.TypeNameUtil.GetName",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Reflection.TypeNameUtil.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Zyl.ExSpans.Reflection.TypeNameUtil.html"
         }
       },
@@ -3333,6 +3319,20 @@
       "IsMRef": true,
       "Title": "Zyl.ExSpans.Reflection.TypeNameUtil",
       "Summary": "<p sourcefile=\"api/Zyl.ExSpans.Reflection.TypeNameUtil.yml\" sourcestartlinenumber=\"1\">The utilities of type name (类型名的工具)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.Reflection.TypeNameUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.Reflection.TypeNameUtil.GetName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.Reflection.TypeNameUtil.GetName",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3353,13 +3353,13 @@
       "source_relative_path": "api/Zyl.ExSpans.SafeBufferSpanProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.SafeBufferSpanProvider.CreateReadOnlyExSpanSaturating.html"
+          "relative_path": "api/Zyl.ExSpans.SafeBufferSpanProvider.-ctor.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.SafeBufferSpanProvider.CreateReadOnlyExSpanSaturating",
+      "Title": "Zyl.ExSpans.SafeBufferSpanProvider.SafeBufferSpanProvider",
       "Summary": null
     },
     {
@@ -3416,6 +3416,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Zyl.ExSpans.SafeBufferSpanProvider.CreateReadOnlyExSpan",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zyl.ExSpans.SafeBufferSpanProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zyl.ExSpans.SafeBufferSpanProvider.CreateReadOnlyExSpanSaturating.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Zyl.ExSpans.SafeBufferSpanProvider.CreateReadOnlyExSpanSaturating",
       "Summary": null
     },
     {
@@ -3490,17 +3504,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.SafeBufferSpanProvider.yml",
+      "source_relative_path": "api/Zyl.ExSpans.SafeBufferSpanProviders.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.SafeBufferSpanProvider.-ctor.html"
+          "relative_path": "api/Zyl.ExSpans.SafeBufferSpanProviders.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.SafeBufferSpanProvider.SafeBufferSpanProvider",
-      "Summary": null
+      "Title": "Zyl.ExSpans.SafeBufferSpanProviders",
+      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.SafeBufferSpanProviders.yml\" sourcestartlinenumber=\"1\">Helper methods of <xref href=\"Zyl.ExSpans.SafeBufferSpanProvider\" data-throw-if-not-resolved=\"false\"></xref> (<xref href=\"Zyl.ExSpans.SafeBufferSpanProvider\" data-throw-if-not-resolved=\"false\"></xref> 的辅助方法).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3518,30 +3532,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.SafeBufferSpanProviders.yml",
+      "source_relative_path": "api/Zyl.ExSpans.Text.ExSpanLineEnumerator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.SafeBufferSpanProviders.html"
+          "relative_path": "api/Zyl.ExSpans.Text.ExSpanLineEnumerator.GetEnumerator.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.SafeBufferSpanProviders",
-      "Summary": "<p sourcefile=\"api/Zyl.ExSpans.SafeBufferSpanProviders.yml\" sourcestartlinenumber=\"1\">Helper methods of <xref href=\"Zyl.ExSpans.SafeBufferSpanProvider\" data-throw-if-not-resolved=\"false\"></xref> (<xref href=\"Zyl.ExSpans.SafeBufferSpanProvider\" data-throw-if-not-resolved=\"false\"></xref> 的辅助方法).</p>\n"
+      "Title": "Zyl.ExSpans.Text.ExSpanLineEnumerator.GetEnumerator",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/Zyl.ExSpans.Text.ExSpanLineEnumerator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Text.ExSpanLineEnumerator.Current.html"
+          "relative_path": "api/Zyl.ExSpans.Text.ExSpanLineEnumerator.MoveNext.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Text.ExSpanLineEnumerator.Current",
+      "Title": "Zyl.ExSpans.Text.ExSpanLineEnumerator.MoveNext",
       "Summary": null
     },
     {
@@ -3563,27 +3577,13 @@
       "source_relative_path": "api/Zyl.ExSpans.Text.ExSpanLineEnumerator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zyl.ExSpans.Text.ExSpanLineEnumerator.MoveNext.html"
+          "relative_path": "api/Zyl.ExSpans.Text.ExSpanLineEnumerator.Current.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Zyl.ExSpans.Text.ExSpanLineEnumerator.MoveNext",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zyl.ExSpans.Text.ExSpanLineEnumerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zyl.ExSpans.Text.ExSpanLineEnumerator.GetEnumerator.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Zyl.ExSpans.Text.ExSpanLineEnumerator.GetEnumerator",
+      "Title": "Zyl.ExSpans.Text.ExSpanLineEnumerator.Current",
       "Summary": null
     },
     {
@@ -3695,6 +3695,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/ReleaseNote/v1.0_Chinese.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/ReleaseNote/v1.0_Chinese.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
@@ -3748,10 +3758,30 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "src/ExSpans.Core/bin/Release/ExSpans.Core.1.0.0/ExSpans.Core.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/ExSpans.Core/bin/Release/ExSpans.Core.1.0.0/ExSpans.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "src/ExSpans/ExSpans.md",
       "output": {
         ".html": {
           "relative_path": "src/ExSpans/ExSpans.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/ExSpans/bin/Release/ExSpans.1.0.0/ExSpans.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/ExSpans/bin/Release/ExSpans.1.0.0/ExSpans.html"
         }
       },
       "version": ""

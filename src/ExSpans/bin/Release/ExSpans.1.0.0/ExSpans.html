@@ -2,21 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>ExSpans.Core | ExSpans </title>
+      <title>ExSpans | ExSpans </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="ExSpans.Core | ExSpans ">
+      <meta name="title" content="ExSpans | ExSpans ">
       
       
-      <link rel="icon" href="../../favicon.ico">
-      <link rel="stylesheet" href="../../public/docfx.min.css">
-      <link rel="stylesheet" href="../../public/main.css">
-      <meta name="docfx:navrel" content="../../toc.html">
-      <meta name="docfx:tocrel" content="../../toc.html">
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../../toc.html">
       
-      <meta name="docfx:rel" content="../../">
+      <meta name="docfx:rel" content="../../../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans.Core/ExSpans.Core.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/bin/Release/ExSpans.1.0.0/ExSpans.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -30,7 +30,7 @@
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
 
-      <script type="module" src="./../../public/docfx.min.js"></script>
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
 
       <script>
         const theme = localStorage.getItem('theme') || 'auto'
@@ -43,8 +43,8 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../../index.html">
-            <img id="logo" class="svg" src="../../logo.svg" alt="ExSpans">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="ExSpans">
             ExSpans
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,15 +71,20 @@
         </div>
 
         <article data-uid="">
-<h1 id="exspanscore">ExSpans.Core</h1>
+<h1 id="exspans">ExSpans</h1>
 
-<p>ExSpans.Core: Extended spans of nint index range - Core type (nint 索引范围的扩展跨度 - 核心类型).</p>
+<p>ExSpans: Extended spans of nint index range (nint 索引范围的扩展跨度).</p>
 <p>Commonly used types of <code>ExSpans.Core.dll</code>:</p>
 <ul>
 <li><code>ExMemoryMarshal</code>: Provides a collection of methods for interoperating with ExSpan, and ExReadOnlySpan. It can be regarded as the MemoryMarshal of nint index range (提供与 ExSpan 和 ExReadOnlySpan 互操作的方法. 它可以被视为 nint 索引范围的 MemoryMarshal).</li>
 <li><code>ExSpan&lt;T&gt;</code>: Provides a type-safe and memory-safe representation of a contiguous region of arbitrary memory. It can be regarded as the <code>Span&lt;T&gt;</code> of nint index range (提供任意内存的连续区域的类型安全和内存安全表示形式. 它可以被视为 nint 索引范围的 <code>Span&lt;T&gt;</code>).</li>
 <li><code>ReadOnlyExSpan&lt;T&gt;</code>: Provides a type-safe and memory-safe read-only representation of a contiguous region of arbitrary memory. It can be regarded as the <code>ReadOnlySpan&lt;T&gt;</code> of nint index range (提供任意内存连续区域的类型安全且内存安全的只读表示形式. 它可以被视为 nint 索引范围的 <code>ReadOnlySpan&lt;T&gt;</code>).</li>
 <li><code>SafeBufferSpanProvider</code>: The span provider that manages the pointer acquire for SafeBuffer (管理 SafeBuffer 指针获取的跨度提供者). For example, it can provide span access for memory mapped files (例如它可以为内存映射文件提供跨度访问器).</li>
+</ul>
+<p>Commonly used types of <code>ExSpans.dll</code>:</p>
+<ul>
+<li><code>ExMemoryExtensions</code>: Provides extension methods for the span-related types, such as ExSpan<t> and ReadOnlyExSpan<t>. It can be regarded as the MemoryExtensions of nint index range (提供跨度相关类型的扩展方法，例如 ExSpan<t> 和 ReadOnlyExSpan<t>. 它可以被视为 nint 索引范围的 MemoryExtensions).</t></t></t></t></li>
+<li><code>ExNativeMemory</code>: This class contains methods that are mainly used to manage native memory. It can enable early versions NET can also use the method of <see cref="NativeMemory"></see>, which will revert back to the implementation of <see cref="Marshal.AllocHGlobal(IntPtr)"></see> (此类包含了主要用于管理本机内存的方法. 它能使早期版本的 .NET 也能使用 <see cref="NativeMemory"></see> 的方法, 此时会回退为 <see cref="Marshal.AllocHGlobal(IntPtr)"></see> 的实现).</li>
 </ul>
 <h2 id="see-more">See more</h2>
 <ul>
@@ -90,7 +95,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans.Core/ExSpans.Core.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/zyl910/ExSpans/blob/main/src/ExSpans/bin/Release/ExSpans.1.0.0/ExSpans.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

@@ -442,6 +442,24 @@ AMD Ryzen 7 7840H w/ Radeon 780M Graphics, 1 CPU, 16 logical and 8 physical core
 | SumForExSpanUseRef | 262144 | 58.72 us | 0.164 us | 0.245 us |  0.97 |     159 B |
 </code></pre>
 <p>可见, ExSpan 的性能与 Span 相同.</p>
+<h4 id="net-6">.NET 6</h4>
+<pre><code>AMD Ryzen 7 7840H w/ Radeon 780M Graphics, 1 CPU, 16 logical and 8 physical cores
+.NET SDK 9.0.301
+  [Host]    : .NET 6.0.36 (6.0.3624.51421), X64 RyuJIT AVX2
+  MediumRun : .NET 6.0.36 (6.0.3624.51421), X64 RyuJIT AVX2
+
+| Method             | N      | Mean      | Error    | StdDev   | Ratio | RatioSD | Code Size |
+|------------------- |------- |----------:|---------:|---------:|------:|--------:|----------:|
+| SumForArray        | 262144 |  68.11 us | 0.207 us | 0.311 us |  1.00 |    0.01 |   1,600 B |
+| SumForPtr          | 262144 |  58.67 us | 0.157 us | 0.231 us |  0.86 |    0.01 |     147 B |
+| SumForSpan         | 262144 |  60.25 us | 0.176 us | 0.264 us |  0.88 |    0.01 |     206 B |
+| SumForExSpan       | 262144 | 165.34 us | 0.777 us | 1.162 us |  2.43 |    0.02 |     715 B |
+| SumForExSpanByPtr  | 262144 | 171.65 us | 0.705 us | 1.055 us |  2.52 |    0.02 |     331 B |
+| SumForExSpanUsePtr | 262144 |  59.83 us | 0.334 us | 0.500 us |  0.88 |    0.01 |     676 B |
+| SumForExSpanUseRef | 262144 |  61.23 us | 0.599 us | 0.859 us |  0.90 |    0.01 |     663 B |
+</code></pre>
+<p>可见, 在 .NET 7 之前, ExSpan 的性能比 Span 慢一些.
+﻿</p>
 <h4 id="net-framework">.NET Framework</h4>
 <pre><code>BenchmarkDotNet v0.14.0, Windows 11 (10.0.26100.4351)
 AMD Ryzen 7 7840H w/ Radeon 780M Graphics, 1 CPU, 16 logical and 8 physical cores
@@ -458,7 +476,7 @@ AMD Ryzen 7 7840H w/ Radeon 780M Graphics, 1 CPU, 16 logical and 8 physical core
 | SumForExSpanUsePtr | 262144 |  58.61 us | 0.194 us |  0.285 us |  0.85 |    0.01 |     635 B |
 | SumForExSpanUseRef | 262144 |  58.72 us | 0.187 us |  0.279 us |  0.85 |    0.01 |     614 B |
 </code></pre>
-<p>可见, 在 .NET 7 之前, ExSpan 的性能比 Span 慢一些.</p>
+<p>ExSpan在 .NET Framework 中也能运行, 只是更慢一些.</p>
 <p>有一种办法可以解决这种性能问题——仅将 ExSpan 用做传参, 随后用指针进行数据处理. 可参考 SumForExSpanUsePtr 或 SumForExSpanUseRef, 它们都比 SumForArray/SumForSpan 快. 本库的 ExMemoryExtensions 等类型, 就是用这个办法进行优化的.</p>
 <h3 id="arm架构的基准测试">Arm架构的基准测试</h3>
 <h4 id="net-7-1">.NET 7</h4>
@@ -496,7 +514,7 @@ Apple M2, 1 CPU, 8 logical and 8 physical cores
 | SumForExSpanUsePtr | 262144 |  78.05 us | 0.841 us | 1.259 us |  0.90 |
 | SumForExSpanUseRef | 262144 |  78.02 us | 0.854 us | 1.252 us |  0.90 |
 </code></pre>
-<p>.NET 9 时性能又有进度, ExSpan 的性能与 Span 很接近了. 仅相差 (104.89 / 93.34 - 1 =) 12% 左右.</p>
+<p>.NET 9 时性能又有进步, ExSpan 的性能与 Span 很接近了. 仅相差 (104.89 / 93.34 - 1 =) 12% 左右.</p>
 <p>若想追求最佳性能, 也可利用指针进行优化. 可参考 SumForExSpanUsePtr 或 SumForExSpanUseRef, 它们都比 SumForSpan 快.</p>
 <h2 id="文档">文档</h2>
 <ul>
